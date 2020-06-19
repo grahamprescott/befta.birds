@@ -1,0 +1,1548 @@
+﻿record,common,latin,family,distance,detection,plot,treatment,date,stage,round,uncertain,notes,time,id
+R001,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C10,reduced,04/10/2013,Before,1,0,.,NA,G
+R002,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C10,reduced,04/10/2013,Before,1,0,.,NA,G
+R003,Oriental Magpie-Robin,Copsychus saularis,Muscicapidae,50,H,C10,reduced,04/10/2013,Before,1,0,.,NA,G
+R004,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,50,H,C10,reduced,04/10/2013,Before,1,0,.,NA,G
+R005,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,C10,reduced,04/10/2013,Before,1,0,.,NA,G
+R006,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,C10,reduced,04/10/2013,Before,1,0,.,NA,G
+R007,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,C11,enhanced,04/10/2013,Before,1,0,.,NA,G
+R008,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,C11,enhanced,04/10/2013,Before,1,0,.,NA,G
+R009,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,C11,enhanced,04/10/2013,Before,1,0,.,NA,G
+R010,Greater Coucal,Centropus sinensis,Cuculidae,70,H,C11,enhanced,04/10/2013,Before,1,0,.,NA,G
+R011,Greater Coucal,Centropus sinensis,Cuculidae,70,H,C11,enhanced,04/10/2013,Before,1,0,.,NA,G
+R012,Pin-striped Tit-Babbler,Macronus gularis,Timaliidae,40,H,C11,enhanced,04/10/2013,Before,1,0,confirmed,NA,G
+R013,Spotted Dove,Spilopelia chinensis,Columbidae,50,H,C11,enhanced,04/10/2013,Before,1,0,.,NA,G
+R014,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,60,H,C11,enhanced,04/10/2013,Before,1,0,.,NA,G
+R015,Unidentified,NA,NA,40,H,C11,enhanced,04/10/2013,Before,1,1,undetermined,NA,G
+R016,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,60,H,C11,enhanced,04/10/2013,Before,1,0,.,NA,G
+R017,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,C11,enhanced,04/10/2013,Before,1,0,"40 written instead of O/H - check original notes, but probably a data entry error and H",NA,G
+R018,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R019,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R020,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R021,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R022,Greater Coucal,Centropus sinensis,Cuculidae,50,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R023,Greater Coucal,Centropus sinensis,Cuculidae,50,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R024,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R025,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R026,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R027,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H,C12,normal,04/10/2013,Before,1,0,.,NA,G
+R028,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C17,enhanced,04/10/2013,Before,1,0,.,NA,G
+R029,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C17,enhanced,04/10/2013,Before,1,0,.,NA,G
+R030,Spotted Dove,Spilopelia chinensis,Columbidae,47,O,C17,enhanced,04/10/2013,Before,1,0,.,NA,G
+R031,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,C17,enhanced,04/10/2013,Before,1,0,.,NA,G
+R032,Unidentified,NA,NA,40,H,C17,enhanced,04/10/2013,Before,1,1,undetermined,NA,G
+R033,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,H,C17,enhanced,04/10/2013,Before,1,0,.,NA,G
+R034,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C18,normal,04/10/2013,Before,1,0,.,NA,G
+R035,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,C18,normal,04/10/2013,Before,1,0,.,NA,G
+R036,Greater Coucal,Centropus sinensis,Cuculidae,40,H,C18,normal,04/10/2013,Before,1,0,.,NA,G
+R037,Greater Coucal,Centropus sinensis,Cuculidae,40,H,C18,normal,04/10/2013,Before,1,0,.,NA,G
+R038,Spotted Dove,Spilopelia chinensis,Columbidae,30,H,C18,normal,04/10/2013,Before,1,0,.,NA,G
+R039,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,60,H,C18,normal,04/10/2013,Before,1,0,.,NA,G
+R040,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,C18,normal,04/10/2013,Before,1,0,.,NA,G
+R041,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,C18,normal,04/10/2013,Before,1,0,.,NA,G
+R042,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,3,O,C19,reduced,04/10/2013,Before,1,0,.,NA,G
+R043,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,C19,reduced,04/10/2013,Before,1,0,.,NA,G
+R044,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,C19,reduced,04/10/2013,Before,1,0,.,NA,G
+R045,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,50,H,C19,reduced,04/10/2013,Before,1,0,.,NA,G
+R046,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D28,enhanced,04/10/2013,Before,1,0,.,NA,G
+R047,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D28,enhanced,04/10/2013,Before,1,0,.,NA,G
+R048,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D28,enhanced,04/10/2013,Before,1,0,.,NA,G
+R049,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D28,enhanced,04/10/2013,Before,1,0,.,NA,G
+R050,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D28,enhanced,04/10/2013,Before,1,0,.,NA,G
+R051,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,50,H,D28,enhanced,04/10/2013,Before,1,0,.,NA,G
+R052,Unidentified,NA,NA,40,H,D28,enhanced,04/10/2013,Before,1,1,undetermined,NA,G
+R053,Zebra Dove,Geopelia striata,Columbidae,60,H,D28,enhanced,04/10/2013,Before,1,0,.,NA,G
+R054,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R055,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R056,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R057,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R058,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R059,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R060,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R061,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R062,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,50,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R063,Zebra Dove,Geopelia striata,Columbidae,40,H,D29,reduced,04/10/2013,Before,1,0,.,NA,G
+R064,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D30,normal,04/10/2013,Before,1,0,.,NA,G
+R065,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D30,normal,04/10/2013,Before,1,0,.,NA,G
+R066,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D30,normal,04/10/2013,Before,1,0,.,NA,G
+R067,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D30,normal,04/10/2013,Before,1,0,.,NA,G
+R068,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D30,normal,04/10/2013,Before,1,0,.,NA,G
+R069,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,D30,normal,04/10/2013,Before,1,0,.,NA,G
+R070,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,D30,normal,04/10/2013,Before,1,0,.,NA,G
+R071,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,F04,enhanced,05/10/2013,Before,1,0,.,NA,G
+R072,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F04,enhanced,05/10/2013,Before,1,0,.,NA,G
+R073,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,F04,enhanced,05/10/2013,Before,1,0,.,NA,G
+R074,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,F04,enhanced,05/10/2013,Before,1,0,.,NA,G
+R075,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,F04,enhanced,05/10/2013,Before,1,0,.,NA,G
+R076,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F05,reduced,05/10/2013,Before,1,0,.,NA,G
+R077,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,F05,reduced,05/10/2013,Before,1,0,.,NA,G
+R078,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,F05,reduced,05/10/2013,Before,1,0,.,NA,G
+R079,Greater Coucal,Centropus sinensis,Cuculidae,40,H,F05,reduced,05/10/2013,Before,1,0,.,NA,G
+R080,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,F05,reduced,05/10/2013,Before,1,0,.,NA,G
+R081,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,60,H,F05,reduced,05/10/2013,Before,1,0,.,NA,G
+R082,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,F06,normal,05/10/2013,Before,1,0,.,NA,G
+R083,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F06,normal,05/10/2013,Before,1,0,.,NA,G
+R084,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,F06,normal,05/10/2013,Before,1,0,.,NA,G
+R085,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,15,H,F06,normal,05/10/2013,Before,1,0,.,NA,G
+R086,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,50,H,F06,normal,05/10/2013,Before,1,0,.,NA,G
+R087,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G14,reduced,05/10/2013,Before,1,0,.,NA,G
+R088,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G14,reduced,05/10/2013,Before,1,0,.,NA,G
+R089,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G14,reduced,05/10/2013,Before,1,0,.,NA,G
+R090,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,60,H,G14,reduced,05/10/2013,Before,1,0,.,NA,G
+R091,Unidentified,NA,NA,50,H,G14,reduced,05/10/2013,Before,1,1,undetected,NA,G
+R092,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,G14,reduced,05/10/2013,Before,1,0,.,NA,G
+R093,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,50,H,G14,reduced,05/10/2013,Before,1,0,.,NA,G
+R094,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G15,normal,05/10/2013,Before,1,0,.,NA,G
+R095,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G15,normal,05/10/2013,Before,1,0,.,NA,G
+R096,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,60,H,G15,normal,05/10/2013,Before,1,0,.,NA,G
+R097,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,G15,normal,05/10/2013,Before,1,0,.,NA,G
+R098,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,G15,normal,05/10/2013,Before,1,0,.,NA,G
+R099,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H,G15,normal,05/10/2013,Before,1,0,.,NA,G
+R100,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G16,enhanced,05/10/2013,Before,1,0,.,NA,G
+R101,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,G16,enhanced,05/10/2013,Before,1,0,.,NA,G
+R102,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,G16,enhanced,05/10/2013,Before,1,0,.,NA,G
+R103,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G16,enhanced,05/10/2013,Before,1,0,.,NA,G
+R104,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G16,enhanced,05/10/2013,Before,1,0,.,NA,G
+R105,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G16,enhanced,05/10/2013,Before,1,0,.,NA,G
+R106,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,20,H,G16,enhanced,05/10/2013,Before,1,0,.,NA,G
+R107,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G07,enhanced,05/10/2013,Before,1,0,.,NA,G
+R108,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G07,enhanced,05/10/2013,Before,1,0,.,NA,G
+R109,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G07,enhanced,05/10/2013,Before,1,0,.,NA,G
+R110,Oriental Magpie-Robin,Copsychus saularis,Muscicapidae,30,H,G07,enhanced,05/10/2013,Before,1,0,.,NA,G
+R111,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,40,H,G07,enhanced,05/10/2013,Before,1,0,corrected,NA,G
+R112,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,H,G07,enhanced,05/10/2013,Before,1,0,.,NA,G
+R113,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G08,normal,05/10/2013,Before,1,0,.,NA,G
+R114,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G08,normal,05/10/2013,Before,1,0,.,NA,G
+R115,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,H,G08,normal,05/10/2013,Before,1,0,.,NA,G
+R116,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G08,normal,05/10/2013,Before,1,0,.,NA,G
+R117,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,H,G08,normal,05/10/2013,Before,1,0,.,NA,G
+R118,Pin-striped Tit-Babbler,Macronus gularis,Timaliidae,30,H,G08,normal,05/10/2013,Before,1,0,confirmed,NA,G
+R119,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,G09,reduced,05/10/2013,Before,1,0,.,NA,G
+R120,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G09,reduced,05/10/2013,Before,1,0,.,NA,G
+R121,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G09,reduced,05/10/2013,Before,1,0,.,NA,G
+R122,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G09,reduced,05/10/2013,Before,1,0,.,NA,G
+R123,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C10,reduced,07/10/2013,Before,2,0,.,NA,G
+R124,Greater Coucal,Centropus sinensis,Cuculidae,20,H,C10,reduced,07/10/2013,Before,2,0,.,NA,G
+R125,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,C10,reduced,07/10/2013,Before,2,0,.,NA,G
+R126,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,30,H,C10,reduced,07/10/2013,Before,2,0,.,NA,G
+R127,Zebra Dove,Geopelia striata,Columbidae,60,H,C10,reduced,07/10/2013,Before,2,0,.,NA,G
+R128,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C11,enhanced,07/10/2013,Before,2,0,.,NA,G
+R129,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,H,C11,enhanced,07/10/2013,Before,2,0,.,NA,G
+R130,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,20,H,C11,enhanced,07/10/2013,Before,2,0,.,NA,G
+R131,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,20,H,C11,enhanced,07/10/2013,Before,2,0,.,NA,G
+R132,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,50,H,C11,enhanced,07/10/2013,Before,2,0,.,NA,G
+R133,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,C12,normal,07/10/2013,Before,2,0,.,NA,G
+R134,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C12,normal,07/10/2013,Before,2,0,.,NA,G
+R135,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C12,normal,07/10/2013,Before,2,0,.,NA,G
+R136,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C12,normal,07/10/2013,Before,2,0,.,NA,G
+R137,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C12,normal,07/10/2013,Before,2,0,.,NA,G
+R138,Greater Coucal,Centropus sinensis,Cuculidae,30,H,C12,normal,07/10/2013,Before,2,0,.,NA,G
+R139,Greater Coucal,Centropus sinensis,Cuculidae,30,H,C12,normal,07/10/2013,Before,2,0,.,NA,G
+R140,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,60,H,C12,normal,07/10/2013,Before,2,0,.,NA,G
+R141,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,50,H,C12,normal,07/10/2013,Before,2,0,.,NA,G
+R142,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C17,enhanced,07/10/2013,Before,2,0,.,NA,G
+R143,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C17,enhanced,07/10/2013,Before,2,0,.,NA,G
+R144,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C17,enhanced,07/10/2013,Before,2,0,.,NA,G
+R145,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C17,enhanced,07/10/2013,Before,2,0,.,NA,G
+R146,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C17,enhanced,07/10/2013,Before,2,0,.,NA,G
+R147,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,50,H,C17,enhanced,07/10/2013,Before,2,0,.,NA,G
+R148,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,C17,enhanced,07/10/2013,Before,2,0,.,NA,G
+R149,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,40,H,C17,enhanced,07/10/2013,Before,2,0,.,NA,G
+R150,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,40,H,C17,enhanced,07/10/2013,Before,2,0,.,NA,G
+R151,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C18,normal,07/10/2013,Before,2,0,confirmed,NA,G
+R152,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C18,normal,07/10/2013,Before,2,0,.,NA,G
+R153,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C18,normal,07/10/2013,Before,2,0,.,NA,G
+R154,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C18,normal,07/10/2013,Before,2,0,.,NA,G
+R155,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,C18,normal,07/10/2013,Before,2,0,.,NA,G
+R156,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,70,H,C18,normal,07/10/2013,Before,2,0,.,NA,G
+R157,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,H,C18,normal,07/10/2013,Before,2,0,corrected,NA,G
+R158,Zebra Dove,Geopelia striata,Columbidae,60,H,C18,normal,07/10/2013,Before,2,0,.,NA,G
+R159,Zebra Dove,Geopelia striata,Columbidae,40,H,C18,normal,07/10/2013,Before,2,0,.,NA,G
+R160,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C19,reduced,07/10/2013,Before,2,0,.,NA,G
+R161,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C19,reduced,07/10/2013,Before,2,0,.,NA,G
+R162,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C19,reduced,07/10/2013,Before,2,0,.,NA,G
+R163,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C19,reduced,07/10/2013,Before,2,0,.,NA,G
+R164,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,C19,reduced,07/10/2013,Before,2,0,.,NA,G
+R165,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,D28,enhanced,07/10/2013,Before,2,0,.,NA,G
+R166,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D28,enhanced,07/10/2013,Before,2,0,.,NA,G
+R167,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,D28,enhanced,07/10/2013,Before,2,0,.,NA,G
+R168,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,D28,enhanced,07/10/2013,Before,2,0,.,NA,G
+R169,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,H,D28,enhanced,07/10/2013,Before,2,0,.,NA,G
+R170,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R171,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R172,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R173,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R174,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R175,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R176,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R177,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R178,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R179,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R180,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,H,D29,reduced,07/10/2013,Before,2,0,.,NA,G
+R181,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,D30,normal,07/10/2013,Before,2,0,.,NA,G
+R182,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D30,normal,07/10/2013,Before,2,0,.,NA,G
+R183,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D30,normal,07/10/2013,Before,2,0,.,NA,G
+R184,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D30,normal,07/10/2013,Before,2,0,.,NA,G
+R185,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,D30,normal,07/10/2013,Before,2,0,.,NA,G
+R186,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,D30,normal,07/10/2013,Before,2,0,.,NA,G
+R187,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D30,normal,07/10/2013,Before,2,0,.,NA,G
+R188,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,F04,enhanced,08/10/2013,Before,2,0,.,NA,G
+R189,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,F04,enhanced,08/10/2013,Before,2,0,.,NA,G
+R190,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F04,enhanced,08/10/2013,Before,2,0,.,NA,G
+R191,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,H,F04,enhanced,08/10/2013,Before,2,0,.,NA,G
+R192,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,F04,enhanced,08/10/2013,Before,2,0,.,NA,G
+R193,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,F04,enhanced,08/10/2013,Before,2,0,.,NA,G
+R194,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,F04,enhanced,08/10/2013,Before,2,0,.,NA,G
+R195,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R196,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R197,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R198,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R199,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R200,Spotted Dove,Spilopelia chinensis,Columbidae,50,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R201,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R202,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R203,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R204,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,H,F05,reduced,08/10/2013,Before,2,0,.,NA,G
+R205,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,F06,normal,08/10/2013,Before,2,0,.,NA,G
+R206,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,F06,normal,08/10/2013,Before,2,0,.,NA,G
+R207,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,F06,normal,08/10/2013,Before,2,0,.,NA,G
+R208,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,F06,normal,08/10/2013,Before,2,0,.,NA,G
+R209,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,40,H,F06,normal,08/10/2013,Before,2,0,confirmed,NA,G
+R210,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,0,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R211,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R212,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R213,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R214,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R215,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R216,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R217,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R218,Greater Coucal,Centropus sinensis,Cuculidae,60,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R219,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,G14,reduced,08/10/2013,Before,2,0,.,NA,G
+R220,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,G15,normal,08/10/2013,Before,2,0,.,NA,G
+R221,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,G15,normal,08/10/2013,Before,2,0,.,NA,G
+R222,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,G15,normal,08/10/2013,Before,2,0,.,NA,G
+R223,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,G15,normal,08/10/2013,Before,2,0,.,NA,G
+R224,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G15,normal,08/10/2013,Before,2,0,.,NA,G
+R225,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,G15,normal,08/10/2013,Before,2,0,.,NA,G
+R226,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,G15,normal,08/10/2013,Before,2,0,.,NA,G
+R227,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G15,normal,08/10/2013,Before,2,0,.,NA,G
+R228,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H,G15,normal,08/10/2013,Before,2,0,.,NA,G
+R229,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G16,enhanced,08/10/2013,Before,2,0,.,NA,G
+R230,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G16,enhanced,08/10/2013,Before,2,0,.,NA,G
+R231,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G16,enhanced,08/10/2013,Before,2,0,.,NA,G
+R232,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G16,enhanced,08/10/2013,Before,2,0,.,NA,G
+R233,Zebra Dove,Geopelia striata,Columbidae,60,H,G16,enhanced,08/10/2013,Before,2,0,.,NA,G
+R234,Zebra Dove,Geopelia striata,Columbidae,70,H,G16,enhanced,08/10/2013,Before,2,0,.,NA,G
+R235,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G07,enhanced,08/10/2013,Before,2,0,.,NA,G
+R236,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G07,enhanced,08/10/2013,Before,2,0,.,NA,G
+R237,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G07,enhanced,08/10/2013,Before,2,0,.,NA,G
+R238,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G07,enhanced,08/10/2013,Before,2,0,.,NA,G
+R239,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,50,H,G07,enhanced,08/10/2013,Before,2,0,.,NA,G
+R240,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G08,normal,08/10/2013,Before,2,0,.,NA,G
+R241,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G08,normal,08/10/2013,Before,2,0,.,NA,G
+R242,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,G08,normal,08/10/2013,Before,2,0,.,NA,G
+R243,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G08,normal,08/10/2013,Before,2,0,.,NA,G
+R244,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G08,normal,08/10/2013,Before,2,0,.,NA,G
+R245,Pin-striped Tit-Babbler,Macronus gularis,Timaliidae,40,H,G08,normal,08/10/2013,Before,2,0,confirmed,NA,G
+R246,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,50,H,G08,normal,08/10/2013,Before,2,0,.,NA,G
+R247,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,30,H,G08,normal,08/10/2013,Before,2,0,.,NA,G
+R248,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G09,reduced,08/10/2013,Before,2,0,.,NA,G
+R249,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G09,reduced,08/10/2013,Before,2,0,.,NA,G
+R250,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,G09,reduced,08/10/2013,Before,2,0,.,NA,G
+R251,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,G09,reduced,08/10/2013,Before,2,0,.,NA,G
+R252,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,G09,reduced,08/10/2013,Before,2,0,.,NA,G
+R253,Greater Coucal,Centropus sinensis,Cuculidae,70,H,G09,reduced,08/10/2013,Before,2,0,.,NA,G
+R254,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G09,reduced,08/10/2013,Before,2,0,.,NA,G
+R255,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R256,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R257,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R258,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R259,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R260,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R261,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R262,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,O,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R263,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R264,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R265,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R266,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R267,Black-naped Oriole,Oriolus chinensis,Oriolidae,70,H,C10,reduced,09/10/2013,Before,3,0,confirmed,NA,G
+R268,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,50,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R269,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,70,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R270,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,50,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R271,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,10,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R272,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,10,H,C10,reduced,09/10/2013,Before,3,0,.,NA,G
+R273,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R274,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R275,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R276,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R277,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R278,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R279,Oriental Magpie-Robin,Copsychus saularis,Muscicapidae,50,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R280,Oriental Magpie-Robin,Copsychus saularis,Muscicapidae,50,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R281,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,30,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R282,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,30,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R283,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R284,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,10,O,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R285,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,10,O,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R286,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R287,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R288,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,C11,enhanced,09/10/2013,Before,3,0,.,NA,G
+R289,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R290,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R291,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R292,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R293,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R294,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R295,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R296,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R297,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R298,Oriental Magpie-Robin,Copsychus saularis,Muscicapidae,20,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R299,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,50,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R300,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,50,H,C12,normal,09/10/2013,Before,3,0,.,NA,G
+R301,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R302,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R303,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R304,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R305,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R306,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R307,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R308,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R309,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R310,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R311,Greater Coucal,Centropus sinensis,Cuculidae,30,O,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R312,Greater Coucal,Centropus sinensis,Cuculidae,30,O,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R313,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,30,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R314,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,30,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R315,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R316,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R317,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,70,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R318,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,70,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R319,Zebra Dove,Geopelia striata,Columbidae,70,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R320,Zebra Dove,Geopelia striata,Columbidae,70,H,C17,enhanced,09/10/2013,Before,3,0,.,NA,G
+R321,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R322,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R323,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R324,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R325,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R326,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R327,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,50,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R328,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,50,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R329,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R330,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R331,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R332,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R333,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R334,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R335,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,60,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R336,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,60,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R337,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R338,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R339,Zebra Dove,Geopelia striata,Columbidae,60,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R340,Zebra Dove,Geopelia striata,Columbidae,60,H,C18,normal,09/10/2013,Before,3,0,.,NA,G
+R341,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C19,reduced,09/10/2013,Before,3,0,.,NA,G
+R342,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C19,reduced,09/10/2013,Before,3,0,.,NA,G
+R343,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C19,reduced,09/10/2013,Before,3,0,.,NA,G
+R344,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C19,reduced,09/10/2013,Before,3,0,.,NA,G
+R345,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C19,reduced,09/10/2013,Before,3,0,.,NA,G
+R346,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C19,reduced,09/10/2013,Before,3,0,.,NA,G
+R347,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C19,reduced,09/10/2013,Before,3,0,.,NA,G
+R348,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,30,H,C19,reduced,09/10/2013,Before,3,0,.,NA,G
+R349,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,30,H,C19,reduced,09/10/2013,Before,3,0,.,NA,G
+R350,Unidentified,NA,NA,30,H,C19,reduced,09/10/2013,Before,3,1,undiagnosible,NA,G
+R351,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R352,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R353,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R354,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R355,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R356,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R357,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R358,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R359,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R360,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R361,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,30,O,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R362,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,30,O,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R363,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,60,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R364,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,60,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R365,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R366,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,D28,enhanced,09/10/2013,Before,3,0,.,NA,G
+R367,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R368,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R369,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R370,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R371,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R372,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R373,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R374,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R375,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R376,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R377,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R378,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R379,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,60,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R380,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,70,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R381,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,60,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R382,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,70,H,D29,reduced,09/10/2013,Before,3,0,.,NA,G
+R383,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R384,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R385,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R386,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R387,Sunda Frogmouth,Batrachostomus cornutus,Podargidae,10,H,D30,normal,09/10/2013,Before,3,0,confirmed,NA,G
+R388,Sunda Frogmouth,Batrachostomus cornutus,Podargidae,30,H,D30,normal,09/10/2013,Before,3,0,confirmed,NA,G
+R389,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R390,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R391,Unidentified,NA,NA,10,H,D30,normal,09/10/2013,Before,3,1,??,NA,G
+R392,Unidentified,NA,NA,30,H,D30,normal,09/10/2013,Before,3,1,??,NA,G
+R393,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,40,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R394,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,40,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R395,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R396,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R397,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R398,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H,D30,normal,09/10/2013,Before,3,0,.,NA,G
+R399,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C10,reduced,12/10/2013,Before,4,0,.,NA,G
+R400,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C10,reduced,12/10/2013,Before,4,0,.,NA,G
+R401,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C10,reduced,12/10/2013,Before,4,0,.,NA,G
+R402,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,O,C10,reduced,12/10/2013,Before,4,0,.,NA,G
+R403,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C10,reduced,12/10/2013,Before,4,0,.,NA,G
+R404,Eastern Barn Owl,Tyto javanicus,Tytonidae,20,H,C10,reduced,12/10/2013,Before,4,1,doubt,NA,G
+R405,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,C10,reduced,12/10/2013,Before,4,0,.,NA,G
+R406,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,C10,reduced,12/10/2013,Before,4,0,.,NA,G
+R407,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,70,H,C11,enhanced,12/10/2013,Before,4,0,.,NA,G
+R408,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,C11,enhanced,12/10/2013,Before,4,0,.,NA,G
+R409,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,C11,enhanced,12/10/2013,Before,4,0,.,NA,G
+R410,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C11,enhanced,12/10/2013,Before,4,0,.,NA,G
+R411,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,C11,enhanced,12/10/2013,Before,4,0,.,NA,G
+R412,Oriental Magpie-Robin,Copsychus saularis,Muscicapidae,50,H,C11,enhanced,12/10/2013,Before,4,0,.,NA,G
+R413,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C12,normal,12/10/2013,Before,4,0,.,NA,G
+R414,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C12,normal,12/10/2013,Before,4,0,.,NA,G
+R415,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C12,normal,12/10/2013,Before,4,0,.,NA,G
+R416,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C12,normal,12/10/2013,Before,4,0,.,NA,G
+R417,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C12,normal,12/10/2013,Before,4,0,.,NA,G
+R418,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,C12,normal,12/10/2013,Before,4,0,.,NA,G
+R419,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C17,enhanced,12/10/2013,Before,4,0,.,NA,G
+R420,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,C17,enhanced,12/10/2013,Before,4,0,.,NA,G
+R421,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,C17,enhanced,12/10/2013,Before,4,0,.,NA,G
+R422,Sunda Pygmy Woodpecker,Yungipicus moluccensis,Picidae,30,H,C17,enhanced,12/10/2013,Before,4,1,doubt,NA,G
+R423,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,10,H,C17,enhanced,12/10/2013,Before,4,0,.,NA,G
+R424,Zebra Dove,Geopelia striata,Columbidae,50,H,C17,enhanced,12/10/2013,Before,4,0,.,NA,G
+R425,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,C18,normal,12/10/2013,Before,4,0,.,NA,G
+R426,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,C18,normal,12/10/2013,Before,4,0,.,NA,G
+R427,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,C18,normal,12/10/2013,Before,4,0,.,NA,G
+R428,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C18,normal,12/10/2013,Before,4,0,.,NA,G
+R429,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C18,normal,12/10/2013,Before,4,0,.,NA,G
+R430,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,60,H,C18,normal,12/10/2013,Before,4,0,.,NA,G
+R431,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,C18,normal,12/10/2013,Before,4,0,.,NA,G
+R432,Zebra Dove,Geopelia striata,Columbidae,70,H,C18,normal,12/10/2013,Before,4,0,.,NA,G
+R433,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,C19,reduced,12/10/2013,Before,4,0,.,NA,G
+R434,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,C19,reduced,12/10/2013,Before,4,0,.,NA,G
+R435,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C19,reduced,12/10/2013,Before,4,0,.,NA,G
+R436,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C19,reduced,12/10/2013,Before,4,0,.,NA,G
+R437,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,60,H,C19,reduced,12/10/2013,Before,4,0,.,NA,G
+R438,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,50,H,C19,reduced,12/10/2013,Before,4,0,.,NA,G
+R439,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,D28,enhanced,12/10/2013,Before,4,0,.,NA,G
+R440,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D28,enhanced,12/10/2013,Before,4,0,.,NA,G
+R441,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D28,enhanced,12/10/2013,Before,4,0,.,NA,G
+R442,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,D28,enhanced,12/10/2013,Before,4,0,.,NA,G
+R443,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,D28,enhanced,12/10/2013,Before,4,0,.,NA,G
+R444,Olive-winged Bulbul,Pycnonotus plumosus,Pycnonotidae,40,O,D28,enhanced,12/10/2013,Before,4,0,corrected,NA,G
+R445,Olive-winged Bulbul,Pycnonotus plumosus,Pycnonotidae,40,O,D28,enhanced,12/10/2013,Before,4,0,corrected,NA,G
+R446,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,D28,enhanced,12/10/2013,Before,4,0,.,NA,G
+R447,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D29,reduced,12/10/2013,Before,4,0,.,NA,G
+R448,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D29,reduced,12/10/2013,Before,4,0,.,NA,G
+R449,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,D29,reduced,12/10/2013,Before,4,0,.,NA,G
+R450,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,D29,reduced,12/10/2013,Before,4,0,.,NA,G
+R451,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,70,H,D29,reduced,12/10/2013,Before,4,0,.,NA,G
+R452,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,D29,reduced,12/10/2013,Before,4,0,.,NA,G
+R453,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,O,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R454,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R455,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R456,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R457,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R458,Bar-winged Prinia,Prinia familiaris,Cisticolidae,10,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R459,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R460,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R461,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R462,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R463,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H,D30,normal,12/10/2013,Before,4,0,.,NA,G
+R464,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,F04,enhanced,13/10/2013,Before,3,0,.,NA,G
+R465,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,F04,enhanced,13/10/2013,Before,3,0,.,NA,G
+R466,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,F04,enhanced,13/10/2013,Before,3,0,.,NA,G
+R467,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,F04,enhanced,13/10/2013,Before,3,0,.,NA,G
+R468,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,F05,reduced,13/10/2013,Before,3,0,.,NA,G
+R469,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,F05,reduced,13/10/2013,Before,3,0,.,NA,G
+R470,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,F05,reduced,13/10/2013,Before,3,0,.,NA,G
+R471,Spotted Dove,Spilopelia chinensis,Columbidae,50,H,F05,reduced,13/10/2013,Before,3,0,.,NA,G
+R472,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,F05,reduced,13/10/2013,Before,3,0,.,NA,G
+R473,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,F05,reduced,13/10/2013,Before,3,0,.,NA,G
+R474,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F06,normal,13/10/2013,Before,3,0,.,NA,G
+R475,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,20,H,F06,normal,13/10/2013,Before,3,0,.,NA,G
+R476,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,40,H,F06,normal,13/10/2013,Before,3,0,.,NA,G
+R477,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,F06,normal,13/10/2013,Before,3,0,.,NA,G
+R478,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G14,reduced,13/10/2013,Before,3,0,.,NA,G
+R479,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G14,reduced,13/10/2013,Before,3,0,.,NA,G
+R480,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,O,G14,reduced,13/10/2013,Before,3,0,.,NA,G
+R481,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,G14,reduced,13/10/2013,Before,3,0,.,NA,G
+R482,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,G14,reduced,13/10/2013,Before,3,0,.,NA,G
+R483,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,20,O,G14,reduced,13/10/2013,Before,3,0,.,NA,G
+R484,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,20,O,G14,reduced,13/10/2013,Before,3,0,.,NA,G
+R485,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,40,H,G14,reduced,13/10/2013,Before,3,0,.,NA,G
+R486,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G15,normal,13/10/2013,Before,3,0,.,NA,G
+R487,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G15,normal,13/10/2013,Before,3,0,.,NA,G
+R488,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G15,normal,13/10/2013,Before,3,0,.,NA,G
+R489,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,G15,normal,13/10/2013,Before,3,0,.,NA,G
+R490,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G15,normal,13/10/2013,Before,3,0,.,NA,G
+R491,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,30,H,G15,normal,13/10/2013,Before,3,0,.,NA,G
+R492,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,30,O,G15,normal,13/10/2013,Before,3,0,.,NA,G
+R493,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,G15,normal,13/10/2013,Before,3,0,.,NA,G
+R494,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G16,enhanced,13/10/2013,Before,3,0,.,NA,G
+R495,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G16,enhanced,13/10/2013,Before,3,0,.,NA,G
+R496,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,G16,enhanced,13/10/2013,Before,3,0,.,NA,G
+R497,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,G16,enhanced,13/10/2013,Before,3,0,.,NA,G
+R498,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,60,H,G16,enhanced,13/10/2013,Before,3,0,.,NA,G
+R499,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,G16,enhanced,13/10/2013,Before,3,0,.,NA,G
+R500,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G07,enhanced,13/10/2013,Before,3,0,.,NA,G
+R501,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G07,enhanced,13/10/2013,Before,3,0,.,NA,G
+R502,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,G07,enhanced,13/10/2013,Before,3,0,.,NA,G
+R503,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,G07,enhanced,13/10/2013,Before,3,0,.,NA,G
+R504,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,G07,enhanced,13/10/2013,Before,3,0,.,NA,G
+R505,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G08,normal,13/10/2013,Before,3,0,.,NA,G
+R506,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G08,normal,13/10/2013,Before,3,0,.,NA,G
+R507,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G08,normal,13/10/2013,Before,3,0,.,NA,G
+R508,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,G08,normal,13/10/2013,Before,3,0,.,NA,G
+R509,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G09,reduced,13/10/2013,Before,3,0,.,NA,G
+R510,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G09,reduced,13/10/2013,Before,3,0,.,NA,G
+R511,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G09,reduced,13/10/2013,Before,3,0,.,NA,G
+R512,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,G09,reduced,13/10/2013,Before,3,0,.,NA,G
+R513,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,60,H,G09,reduced,13/10/2013,Before,3,0,.,NA,G
+R514,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,G09,reduced,13/10/2013,Before,3,0,.,NA,G
+R515,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,0,O,F04,enhanced,14/10/2013,Before,4,0,.,NA,G
+R516,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,F04,enhanced,14/10/2013,Before,4,0,.,NA,G
+R517,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,F04,enhanced,14/10/2013,Before,4,0,.,NA,G
+R518,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,F04,enhanced,14/10/2013,Before,4,0,.,NA,G
+R519,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,H,F04,enhanced,14/10/2013,Before,4,0,.,NA,G
+R520,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,F05,reduced,14/10/2013,Before,4,0,.,NA,G
+R521,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,F05,reduced,14/10/2013,Before,4,0,.,NA,G
+R522,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,F05,reduced,14/10/2013,Before,4,0,.,NA,G
+R523,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,F05,reduced,14/10/2013,Before,4,0,.,NA,G
+R524,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,F05,reduced,14/10/2013,Before,4,0,.,NA,G
+R525,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,O,F06,normal,14/10/2013,Before,4,0,.,NA,G
+R526,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,F06,normal,14/10/2013,Before,4,0,.,NA,G
+R527,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,10,H,F06,normal,14/10/2013,Before,4,0,.,NA,G
+R528,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,30,H,F06,normal,14/10/2013,Before,4,0,.,NA,G
+R529,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G14,reduced,14/10/2013,Before,4,0,.,NA,G
+R530,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G14,reduced,14/10/2013,Before,4,0,.,NA,G
+R531,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,G14,reduced,14/10/2013,Before,4,0,.,NA,G
+R532,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,G14,reduced,14/10/2013,Before,4,0,.,NA,G
+R533,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,30,H,G14,reduced,14/10/2013,Before,4,0,.,NA,G
+R534,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,40,H,G14,reduced,14/10/2013,Before,4,0,.,NA,G
+R535,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G14,reduced,14/10/2013,Before,4,0,.,NA,G
+R536,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G14,reduced,14/10/2013,Before,4,0,.,NA,G
+R537,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,70,H,G14,reduced,14/10/2013,Before,4,0,.,NA,G
+R538,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G15,normal,14/10/2013,Before,4,0,.,NA,G
+R539,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G15,normal,14/10/2013,Before,4,0,.,NA,G
+R540,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G15,normal,14/10/2013,Before,4,0,.,NA,G
+R541,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,50,H,G15,normal,14/10/2013,Before,4,0,.,NA,G
+R542,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,G15,normal,14/10/2013,Before,4,0,.,NA,G
+R543,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G16,enhanced,14/10/2013,Before,4,0,.,NA,G
+R544,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,G16,enhanced,14/10/2013,Before,4,0,.,NA,G
+R545,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G16,enhanced,14/10/2013,Before,4,0,.,NA,G
+R546,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,G16,enhanced,14/10/2013,Before,4,0,.,NA,G
+R547,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G07,enhanced,14/10/2013,Before,4,0,.,NA,G
+R548,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G07,enhanced,14/10/2013,Before,4,0,.,NA,G
+R549,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G07,enhanced,14/10/2013,Before,4,0,.,NA,G
+R550,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G07,enhanced,14/10/2013,Before,4,0,.,NA,G
+R551,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G07,enhanced,14/10/2013,Before,4,0,.,NA,G
+R552,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G07,enhanced,14/10/2013,Before,4,0,.,NA,G
+R553,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,H,G07,enhanced,14/10/2013,Before,4,0,.,NA,G
+R554,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,G08,normal,14/10/2013,Before,4,0,.,NA,G
+R555,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G08,normal,14/10/2013,Before,4,0,.,NA,G
+R556,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,G08,normal,14/10/2013,Before,4,0,.,NA,G
+R557,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,50,H,G08,normal,14/10/2013,Before,4,0,.,NA,G
+R558,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G08,normal,14/10/2013,Before,4,0,.,NA,G
+R559,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,G08,normal,14/10/2013,Before,4,0,.,NA,G
+R560,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G09,reduced,14/10/2013,Before,4,0,.,NA,G
+R561,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G09,reduced,14/10/2013,Before,4,0,.,NA,G
+R562,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,G09,reduced,14/10/2013,Before,4,0,.,NA,G
+R563,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G09,reduced,14/10/2013,Before,4,0,.,NA,G
+R564,Oriental Magpie-Robin,Copsychus saularis,Muscicapidae,40,H,G09,reduced,14/10/2013,Before,4,0,.,NA,G
+R565,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G09,reduced,14/10/2013,Before,4,0,.,NA,G
+R566,Cinereous Tit,Parus cinereus,Paridae,60,H,C10,reduced,27/01/2018,After,5,0,,NA,D
+R567,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,C10,reduced,27/01/2018,After,5,0,,NA,D
+R568,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,50,H,C10,reduced,27/01/2018,After,5,0,,NA,D
+R569,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,50,H,C10,reduced,27/01/2018,After,5,0,,NA,D
+R570,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,C10,reduced,27/01/2018,After,5,0,,NA,D
+R571,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R572,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R573,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R574,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R575,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R576,Cinereous Tit,Parus cinereus,Paridae,40,H,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R577,Spotted Dove,Spilopelia chinensis,Columbidae,60,O,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R578,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R579,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,70,H,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R580,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,70,H,C11,enhanced,27/01/2018,After,5,0,,NA,D
+R581,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,25,H,C12,normal,27/01/2018,After,5,0,,NA,D
+R582,Bar-winged Prinia,Prinia familiaris,Cisticolidae,25,H,C12,normal,27/01/2018,After,5,0,,NA,D
+R583,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C12,normal,27/01/2018,After,5,0,,NA,D
+R584,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C12,normal,27/01/2018,After,5,0,,NA,D
+R585,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C12,normal,27/01/2018,After,5,0,,NA,D
+R586,Cinereous Tit,Parus cinereus,Paridae,15,H,C12,normal,27/01/2018,After,5,0,,NA,D
+R587,Cinereous Tit,Parus cinereus,Paridae,15,H,C12,normal,27/01/2018,After,5,0,,NA,D
+R588,Eurasian Tree Sparrow,Passer montanus,Passeridae,5,O,C12,normal,27/01/2018,After,5,0,,NA,D
+R589,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,C17,enhanced,27/01/2018,After,5,0,,NA,D
+R590,Greater Coucal,Centropus sinensis,Cuculidae,70,H,C17,enhanced,27/01/2018,After,5,0,,NA,D
+R591,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,C17,enhanced,27/01/2018,After,5,0,,NA,D
+R592,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,C18,normal,27/01/2018,After,5,0,,NA,D
+R593,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C18,normal,27/01/2018,After,5,0,,NA,D
+R594,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,C18,normal,27/01/2018,After,5,0,,NA,D
+R595,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R596,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,O,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R597,Cinereous Tit,Parus cinereus,Paridae,10,H,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R598,Cinereous Tit,Parus cinereus,Paridae,10,O,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R599,Cinereous Tit,Parus cinereus,Paridae,10,O,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R600,Olive-winged Bulbul,Pycnonotus plumosus,Pycnonotidae,15,O,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R601,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,5,O,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R602,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,5,O,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R603,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R604,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,30,O,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R605,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,20,H,D28,enhanced,27/01/2018,After,5,0,,NA,D
+R606,Cinereous Tit,Parus cinereus,Paridae,10,H,D29,reduced,27/01/2018,After,5,0,,NA,D
+R607,Cinereous Tit,Parus cinereus,Paridae,20,O,D29,reduced,27/01/2018,After,5,0,,NA,D
+R608,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,70,H,D30,normal,27/01/2018,After,5,0,,NA,D
+R609,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,70,H,D30,normal,27/01/2018,After,5,0,,NA,D
+R610,Cinereous Tit,Parus cinereus,Paridae,40,H,D30,normal,27/01/2018,After,5,0,,NA,D
+R611,Cinereous Tit,Parus cinereus,Paridae,40,H,D30,normal,27/01/2018,After,5,0,,NA,D
+R612,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,D30,normal,27/01/2018,After,5,0,,NA,D
+R613,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,D30,normal,27/01/2018,After,5,0,,NA,D
+R614,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,F04,enhanced,29/01/2018,After,5,0,,NA,D
+R615,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,F04,enhanced,29/01/2018,After,5,0,,NA,D
+R616,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,F04,enhanced,29/01/2018,After,5,0,,NA,D
+R617,Greater Coucal,Centropus sinensis,Cuculidae,70,O,F04,enhanced,29/01/2018,After,5,0,,NA,D
+R618,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,70,H,F04,enhanced,29/01/2018,After,5,0,,NA,D
+R619,Cinereous Tit,Parus cinereus,Paridae,50,H,F05,reduced,29/01/2018,After,5,0,,NA,D
+R620,Spotted Dove,Spilopelia chinensis,Columbidae,10,H,F05,reduced,29/01/2018,After,5,0,,NA,D
+R621,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,30,H,F05,reduced,29/01/2018,After,5,0,,NA,D
+R622,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,H,F05,reduced,29/01/2018,After,5,0,,NA,D
+R623,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,70,H,F05,reduced,29/01/2018,After,5,0,,NA,D
+R624,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,F06,normal,29/01/2018,After,5,0,,NA,D
+R625,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,F06,normal,29/01/2018,After,5,0,,NA,D
+R626,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,F06,normal,29/01/2018,After,5,0,,NA,D
+R627,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,F06,normal,29/01/2018,After,5,0,,NA,D
+R628,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,70,H,F06,normal,29/01/2018,After,5,0,,NA,D
+R629,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,70,H,F06,normal,29/01/2018,After,5,0,,NA,D
+R630,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G07,enhanced,29/01/2018,After,5,0,,NA,D
+R631,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G07,enhanced,29/01/2018,After,5,0,,NA,D
+R632,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G07,enhanced,29/01/2018,After,5,0,,NA,D
+R633,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,G07,enhanced,29/01/2018,After,5,0,,NA,D
+R634,Cinereous Tit,Parus cinereus,Paridae,50,H,G08,normal,29/01/2018,After,5,0,,NA,D
+R635,Greater Coucal,Centropus sinensis,Cuculidae,30,O,G08,normal,29/01/2018,After,5,0,,NA,D
+R636,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,G08,normal,29/01/2018,After,5,0,,NA,D
+R637,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,G08,normal,29/01/2018,After,5,0,,NA,D
+R638,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,O,G09,reduced,29/01/2018,After,5,0,,NA,D
+R639,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G14,reduced,29/01/2018,After,5,0,,NA,D
+R640,Cinereous Tit,Parus cinereus,Paridae,40,H,G14,reduced,29/01/2018,After,5,0,,NA,D
+R641,Cinereous Tit,Parus cinereus,Paridae,40,H,G14,reduced,29/01/2018,After,5,0,,NA,D
+R642,Cinereous Tit,Parus cinereus,Paridae,40,H,G14,reduced,29/01/2018,After,5,0,,NA,D
+R643,Spotted Dove,Spilopelia chinensis,Columbidae,50,H,G14,reduced,29/01/2018,After,5,0,,NA,D
+R644,Greater Coucal,Centropus sinensis,Cuculidae,70,H,G15,normal,29/01/2018,After,5,0,,NA,D
+R645,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,G15,normal,29/01/2018,After,5,0,,NA,D
+R646,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G16,enhanced,29/01/2018,After,5,0,,NA,D
+R647,Cinereous Tit,Parus cinereus,Paridae,40,H,G16,enhanced,29/01/2018,After,6,0,,NA,D
+R648,Cinereous Tit,Parus cinereus,Paridae,20,O,C10,reduced,30/01/2018,After,6,0,,NA,D
+R649,Cinereous Tit,Parus cinereus,Paridae,20,O,C10,reduced,30/01/2018,After,6,0,,NA,D
+R650,Cinereous Tit,Parus cinereus,Paridae,20,O,C10,reduced,30/01/2018,After,6,0,,NA,D
+R651,Spotted Dove,Spilopelia chinensis,Columbidae,20,O,C10,reduced,30/01/2018,After,6,0,,NA,D
+R652,Zebra Dove,Geopelia striata,Columbidae,70,H,C10,reduced,30/01/2018,After,6,0,,NA,D
+R653,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,O,C11,enhanced,30/01/2018,After,6,0,,NA,D
+R654,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C11,enhanced,30/01/2018,After,6,0,,NA,D
+R655,Cinereous Tit,Parus cinereus,Paridae,10,O,C11,enhanced,30/01/2018,After,6,0,,NA,D
+R656,Cinereous Tit,Parus cinereus,Paridae,60,H,C11,enhanced,30/01/2018,After,6,0,,NA,D
+R657,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,70,H,C11,enhanced,30/01/2018,After,6,0,,NA,D
+R658,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,C11,enhanced,30/01/2018,After,6,0,,NA,D
+R659,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,O,C11,enhanced,30/01/2018,After,6,0,,NA,D
+R660,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,C12,normal,30/01/2018,After,6,0,,NA,D
+R661,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C12,normal,30/01/2018,After,6,0,,NA,D
+R662,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C12,normal,30/01/2018,After,6,0,,NA,D
+R663,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C12,normal,30/01/2018,After,6,0,,NA,D
+R664,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,70,H,C17,enhanced,30/01/2018,After,6,0,,NA,D
+R665,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,C17,enhanced,30/01/2018,After,6,0,,NA,D
+R666,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C17,enhanced,30/01/2018,After,6,0,,NA,D
+R667,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C18,normal,30/01/2018,After,6,0,,NA,D
+R668,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C18,normal,30/01/2018,After,6,0,,NA,D
+R669,Greater Coucal,Centropus sinensis,Cuculidae,70,O,C18,normal,30/01/2018,After,6,0,,NA,D
+R670,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,C18,normal,30/01/2018,After,6,0,,NA,D
+R671,Greater Coucal,Centropus sinensis,Cuculidae,50,O,C19,reduced,30/01/2018,After,6,0,,NA,D
+R672,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D28,enhanced,30/01/2018,After,6,0,,NA,D
+R673,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,D28,enhanced,30/01/2018,After,6,0,,NA,D
+R674,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,D28,enhanced,30/01/2018,After,6,0,,NA,D
+R675,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,D28,enhanced,30/01/2018,After,6,0,,NA,D
+R676,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,D28,enhanced,30/01/2018,After,6,0,,NA,D
+R677,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,D28,enhanced,30/01/2018,After,6,0,,NA,D
+R678,Greater Coucal,Centropus sinensis,Cuculidae,50,O,D28,enhanced,30/01/2018,After,6,0,,NA,D
+R679,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,70,H,D28,enhanced,30/01/2018,After,6,0,,NA,D
+R680,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,D29,reduced,30/01/2018,After,6,0,,NA,D
+R681,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,70,H,D30,normal,30/01/2018,After,6,0,,NA,D
+R682,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,70,H,D30,normal,30/01/2018,After,6,0,,NA,D
+R683,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,D30,normal,30/01/2018,After,6,0,,NA,D
+R684,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,D30,normal,30/01/2018,After,6,0,,NA,D
+R685,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,F04,enhanced,31/01/2018,After,6,0,,NA,D
+R686,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,F04,enhanced,31/01/2018,After,6,0,,NA,D
+R687,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,F04,enhanced,31/01/2018,After,6,0,,NA,D
+R688,Cinereous Tit,Parus cinereus,Paridae,40,H,F05,reduced,31/01/2018,After,6,0,,NA,D
+R689,Cinereous Tit,Parus cinereus,Paridae,10,O,F05,reduced,31/01/2018,After,6,0,,NA,D
+R690,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,F05,reduced,31/01/2018,After,6,0,,NA,D
+R691,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,70,H,F06,normal,31/01/2018,After,6,0,,NA,D
+R692,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,70,H,F06,normal,31/01/2018,After,6,0,,NA,D
+R693,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,O,F06,normal,31/01/2018,After,6,0,,NA,D
+R694,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,O,F06,normal,31/01/2018,After,6,0,,NA,D
+R695,Cinereous Tit,Parus cinereus,Paridae,50,H,F06,normal,31/01/2018,After,6,0,,NA,D
+R696,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,G07,enhanced,31/01/2018,After,6,0,,NA,D
+R697,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,G07,enhanced,31/01/2018,After,6,0,,NA,D
+R698,Cinereous Tit,Parus cinereus,Paridae,30,H,G07,enhanced,31/01/2018,After,6,0,,NA,D
+R699,Cinereous Tit,Parus cinereus,Paridae,30,H,G07,enhanced,31/01/2018,After,6,0,,NA,D
+R700,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,G07,enhanced,31/01/2018,After,6,0,,NA,D
+R701,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G08,normal,31/01/2018,After,6,0,,NA,D
+R702,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G14,reduced,31/01/2018,After,6,0,,NA,D
+R703,Cinereous Tit,Parus cinereus,Paridae,5,O,G14,reduced,31/01/2018,After,6,0,,NA,D
+R704,Cinereous Tit,Parus cinereus,Paridae,10,O,G14,reduced,31/01/2018,After,6,0,,NA,D
+R705,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,G14,reduced,31/01/2018,After,6,0,,NA,D
+R706,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,50,O,G14,reduced,31/01/2018,After,6,0,,NA,D
+R707,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G15,normal,31/01/2018,After,6,0,,NA,D
+R708,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,G15,normal,31/01/2018,After,6,0,,NA,D
+R709,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,70,H,G15,normal,31/01/2018,After,6,0,,NA,D
+R710,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,70,H,G16,enhanced,31/01/2018,After,6,0,,NA,D
+R711,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,70,H,G16,enhanced,31/01/2018,After,6,0,,NA,D
+R712,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R713,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R714,Zebra Dove,Geopelia striata,Columbidae,NA,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R715,Zebra Dove,Geopelia striata,Columbidae,NA,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R716,Red Junglefowl,Gallus gallus,Phasianidae,NA,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R717,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R718,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R719,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R720,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,100,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R721,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,100,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R722,Cinereous Tit,Parus cinereus,Paridae,80,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R723,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R724,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R725,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R726,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,30,H,C12,normal,31/01/2019,After,7,0,.,07.59,A
+R727,Cinereous Tit,Parus cinereus,Paridae,NA,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R728,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R729,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R730,Black-naped oriole,Oriolus chinensis,Oriolidae,100,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R731,Spotted Dove,Spilopelia chinensis,Columbidae,100,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R732,Spotted Dove,Spilopelia chinensis,Columbidae,100,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R733,Spotted Dove,Spilopelia chinensis,Columbidae,100,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R734,Spotted Dove,Spilopelia chinensis,Columbidae,100,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R735,Zebra Dove,Geopelia striata,Columbidae,100,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R736,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R737,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,70,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R738,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R739,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,60,O,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R740,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R741,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,50,O,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R742,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,35,H,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R743,Cinereous Tit,Parus cinereus,Paridae,20,O,C10,reduced,31/01/2019,After,7,0,.,08.14,A
+R744,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R745,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R746,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R747,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R748,Cinereous Tit,Parus cinereus,Paridae,80,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R749,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,70,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R750,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R751,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R752,Spotted Dove,Spilopelia chinensis,Columbidae,30,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R753,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C11,enhanced,31/01/2019,After,7,0,.,08.28,A
+R754,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R755,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R756,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R757,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R758,Greater Coucal,Centropus sinensis,Cuculidae,350,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R759,Cinereous Tit,Parus cinereus,Paridae,200,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R760,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R761,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R762,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,90,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R763,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C18,normal,31/01/2019,After,7,0,.,08.51,A
+R764,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,250,H,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R765,Bar-winged Prinia,Prinia familiaris,Cisticolidae,200,H,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R766,Greater Coucal,Centropus sinensis,Cuculidae,150,H,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R767,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,150,H,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R768,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,120,H,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R769,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,120,H,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R770,Spotted Dove,Spilopelia chinensis,Columbidae,100,H,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R771,Zebra Dove,Geopelia striata,Columbidae,100,H,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R772,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,100,H,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R773,Greater Coucal,Centropus sinensis,Cuculidae,60,O,C19,reduced,31/01/2019,After,7,0,.,09.06,A
+R774,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,C17,enhanced,31/01/2019,After,7,0,human activity,09.22,A
+R775,Zebra Dove,Geopelia striata,Columbidae,120,H,C17,enhanced,31/01/2019,After,7,0,human activity,09.22,A
+R776,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,C17,enhanced,31/01/2019,After,7,0,human activity,09.22,A
+R777,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,C17,enhanced,31/01/2019,After,7,0,human activity,09.22,A
+R778,Cinereous Tit,Parus cinereus,Paridae,50,H,C17,enhanced,31/01/2019,After,7,0,human activity,09.22,A
+R779,Cinereous Tit,Parus cinereus,Paridae,50,H,C17,enhanced,31/01/2019,After,7,0,human activity,09.22,A
+R780,Greater Coucal,Centropus sinensis,Cuculidae,50,H,C17,enhanced,31/01/2019,After,7,0,human activity,09.22,A
+R781,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,C17,enhanced,31/01/2019,After,7,0,human activity,09.22,A
+R782,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C17,enhanced,31/01/2019,After,7,0,human activity,09.22,A
+R783,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R784,Red Junglefowl,Gallus gallus,Phasianidae,NA,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R785,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R786,Spotted Dove,Spilopelia chinensis,Columbidae,200,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R787,Zebra Dove,Geopelia striata,Columbidae,150,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R788,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R789,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R790,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R791,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R792,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R793,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R794,Greater Coucal,Centropus sinensis,Cuculidae,30,O,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R795,Cinereous Tit,Parus cinereus,Paridae,25,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R796,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,25,H,D28,enhanced,31/01/2019,After,7,0,.,09.50,A
+R797,Crested  Serpent-Eagle,Spilornis cheela,Accipitridae,NA,H,D29,reduced,31/01/2019,After,7,0,in flight,10.04,A
+R798,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R799,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R800,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,200,H,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R801,Bar-winged Prinia,Prinia familiaris,Cisticolidae,120,H,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R802,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,120,H,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R803,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R804,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R805,Cinereous Tit,Parus cinereus,Paridae,80,H,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R806,Zebra Dove,Geopelia striata,Columbidae,60,H,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R807,Greater Coucal,Centropus sinensis,Cuculidae,60,O,D29,reduced,31/01/2019,After,7,0,.,10.04,A
+R808,Zebra Dove,Geopelia striata,Columbidae,NA,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R809,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R810,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R811,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R812,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R813,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R814,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R815,Greater Coucal,Centropus sinensis,Cuculidae,100,O,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R816,Greater Coucal,Centropus sinensis,Cuculidae,70,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R817,Greater Coucal,Centropus sinensis,Cuculidae,70,O,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R818,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R819,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R820,Cinereous Tit,Parus cinereus,Paridae,50,H,D30,normal,31/01/2019,After,7,0,.,10.19,A
+R821,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R822,Red Junglefowl,Gallus gallus,Phasianidae,NA,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R823,Striped Tit Babbler,Mixornis gularis,Timaliidae,NA,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R824,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R825,Zebra Dove,Geopelia striata,Columbidae,NA,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R826,Spotted Dove,Spilopelia chinensis,Columbidae,300,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R827,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,200,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R828,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R829,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R830,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R831,Greater Coucal,Centropus sinensis,Cuculidae,80,O,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R832,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,F06,normal,01/02/2019,After,7,0,.,08.13,A
+R833,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,F05,reduced,01/02/2019,After,7,0,.,08.31,A
+R834,Cinereous Tit,Parus cinereus,Paridae,NA,H,F05,reduced,01/02/2019,After,7,0,.,08.31,A
+R835,Cinereous Tit,Parus cinereus,Paridae,NA,H,F05,reduced,01/02/2019,After,7,0,.,08.31,A
+R836,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F05,reduced,01/02/2019,After,7,0,.,08.31,A
+R837,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,F05,reduced,01/02/2019,After,7,0,.,08.31,A
+R838,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,F05,reduced,01/02/2019,After,7,0,.,08.31,A
+R839,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F05,reduced,01/02/2019,After,7,0,.,08.31,A
+R840,Cinereous Tit,Parus cinereus,Paridae,25,H,F05,reduced,01/02/2019,After,7,0,.,08.31,A
+R841,Cinereous Tit,Parus cinereus,Paridae,25,H,F05,reduced,01/02/2019,After,7,0,.,08.31,A
+R842,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R843,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R844,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R845,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R846,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R847,Zebra Dove,Geopelia striata,Columbidae,NA,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R848,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,200,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R849,Cinereous Tit,Parus cinereus,Paridae,60,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R850,Cinereous Tit,Parus cinereus,Paridae,60,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R851,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R852,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R853,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R854,Cinereous Tit,Parus cinereus,Paridae,10,H,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R855,Cinereous Tit,Parus cinereus,Paridae,10,O,F04,enhanced,01/02/2019,After,7,0,.,08.46,A
+R856,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G07,enhanced,01/02/2019,After,7,0,.,09.10,A
+R857,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G07,enhanced,01/02/2019,After,7,0,.,09.10,A
+R858,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G07,enhanced,01/02/2019,After,7,0,.,09.10,A
+R859,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G07,enhanced,01/02/2019,After,7,0,.,09.10,A
+R860,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G07,enhanced,01/02/2019,After,7,0,.,09.10,A
+R861,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G07,enhanced,01/02/2019,After,7,0,.,09.10,A
+R862,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,G07,enhanced,01/02/2019,After,7,0,.,09.10,A
+R863,Bar-winged Prinia,Prinia familiaris,Cisticolidae,50,H,G07,enhanced,01/02/2019,After,7,0,.,09.10,A
+R864,Cinereous Tit,Parus cinereus,Paridae,15,H,G07,enhanced,01/02/2019,After,7,0,.,09.10,A
+R865,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G08,normal,01/02/2019,After,7,0,.,09.25,A
+R866,Zebra Dove,Geopelia striata,Columbidae,NA,H,G08,normal,01/02/2019,After,7,0,.,09.25,A
+R867,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G08,normal,01/02/2019,After,7,0,.,09.25,A
+R868,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G08,normal,01/02/2019,After,7,0,.,09.25,A
+R869,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,G08,normal,01/02/2019,After,7,0,.,09.25,A
+R870,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,150,H,G08,normal,01/02/2019,After,7,0,.,09.25,A
+R871,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,100,H,G08,normal,01/02/2019,After,7,0,.,09.25,A
+R872,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,30,H,G08,normal,01/02/2019,After,7,0,.,09.25,A
+R873,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,G08,normal,01/02/2019,After,7,0,.,09.25,A
+R874,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,G09,reduced,01/02/2019,After,7,0,.,09.38,A
+R875,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G09,reduced,01/02/2019,After,7,0,.,09.38,A
+R876,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G09,reduced,01/02/2019,After,7,0,.,09.38,A
+R877,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,200,H,G09,reduced,01/02/2019,After,7,0,.,09.38,A
+R878,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,G09,reduced,01/02/2019,After,7,0,.,09.38,A
+R879,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,G09,reduced,01/02/2019,After,7,0,.,09.38,A
+R880,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,G09,reduced,01/02/2019,After,7,0,.,09.38,A
+R881,Spotted Dove,Spilopelia chinensis,Columbidae,150,H,G09,reduced,01/02/2019,After,7,0,.,09.38,A
+R882,Cinereous Tit,Parus cinereus,Paridae,100,H,G09,reduced,01/02/2019,After,7,0,.,09.38,A
+R883,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G16,enhanced,01/02/2019,After,7,0,.,09.58,A
+R884,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,G16,enhanced,01/02/2019,After,7,0,.,09.58,A
+R885,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,200,H,G16,enhanced,01/02/2019,After,7,0,.,09.58,A
+R886,Cinereous Tit,Parus cinereus,Paridae,60,H,G16,enhanced,01/02/2019,After,7,0,.,09.58,A
+R887,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G16,enhanced,01/02/2019,After,7,0,.,09.58,A
+R888,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G16,enhanced,01/02/2019,After,7,0,.,09.58,A
+R889,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,30,O,G16,enhanced,01/02/2019,After,7,0,.,09.58,A
+R890,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R891,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R892,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R893,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,200,H,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R894,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,200,H,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R895,Cinereous Tit,Parus cinereus,Paridae,60,H,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R896,Cinereous Tit,Parus cinereus,Paridae,60,H,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R897,Cinereous Tit,Parus cinereus,Paridae,60,H,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R898,Spotted Dove,Spilopelia chinensis,Columbidae,40,O,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R899,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,O,G14,reduced,01/02/2019,After,7,0,.,10.14,A
+R900,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G15,normal,01/02/2019,After,7,0,.,10.28,A
+R901,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G15,normal,01/02/2019,After,7,0,.,10.28,A
+R902,Bar-winged Prinia,Prinia familiaris,Cisticolidae,200,H,G15,normal,01/02/2019,After,7,0,.,10.28,A
+R903,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,G15,normal,01/02/2019,After,7,0,.,10.28,A
+R904,Cinereous Tit,Parus cinereus,Paridae,150,H,G15,normal,01/02/2019,After,7,0,.,10.28,A
+R905,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,G15,normal,01/02/2019,After,7,0,.,10.28,A
+R906,Cinereous Tit,Parus cinereus,Paridae,20,O,G15,normal,01/02/2019,After,7,0,.,10.28,A
+R907,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R908,Zebra Dove,Geopelia striata,Columbidae,NA,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R909,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R910,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R911,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R912,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R913,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,300,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R914,Bar-winged Prinia,Prinia familiaris,Cisticolidae,300,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R915,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R916,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R917,Cinereous Tit,Parus cinereus,Paridae,40,H,D28,enhanced,02/02/2019,After,8,0,.,08.09,A
+R918,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R919,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R920,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R921,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R922,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R923,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R924,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R925,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,200,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R926,Greater Coucal,Centropus sinensis,Cuculidae,80,O,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R927,Cinereous Tit,Parus cinereus,Paridae,70,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R928,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R929,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R930,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R931,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,D30,normal,02/02/2019,After,8,0,.,08.25,A
+R932,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,D29,reduced,02/02/2019,After,8,0,human activity,08.40,A
+R933,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D29,reduced,02/02/2019,After,8,0,human activity,08.40,A
+R934,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D29,reduced,02/02/2019,After,8,0,human activity,08.40,A
+R935,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D29,reduced,02/02/2019,After,8,0,human activity,08.40,A
+R936,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D29,reduced,02/02/2019,After,8,0,human activity,08.40,A
+R937,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D29,reduced,02/02/2019,After,8,0,human activity,08.40,A
+R938,Zebra Dove,Geopelia striata,Columbidae,NA,H,D29,reduced,02/02/2019,After,8,0,human activity,08.40,A
+R939,Bar-winged Prinia,Prinia familiaris,Cisticolidae,150,H,D29,reduced,02/02/2019,After,8,0,human activity,08.40,A
+R940,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,D29,reduced,02/02/2019,After,8,0,human activity,08.40,A
+R941,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,C11,enhanced,02/02/2019,After,8,0,human activity,09.11,A
+R942,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R943,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R944,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R945,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R946,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R947,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R948,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R949,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R950,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R951,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R952,Cinereous Tit,Parus cinereus,Paridae,NA,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R953,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R954,Greater Coucal,Centropus sinensis,Cuculidae,40,O,C11,enhanced,02/02/2019,After,8,0,.,09.11,A
+R955,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,O,C10,reduced,02/02/2019,After,8,0,in flight,09.26,A
+R956,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,O,C10,reduced,02/02/2019,After,8,0,in flight,09.26,A
+R957,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,O,C10,reduced,02/02/2019,After,8,0,in flight,09.26,A
+R958,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,O,C10,reduced,02/02/2019,After,8,0,in flight,09.26,A
+R959,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,O,C10,reduced,02/02/2019,After,8,0,in flight,09.26,A
+R960,White-breasted Wood-swallow,Artamus leucorynchus,Artamiidae,NA,O,C10,reduced,02/02/2019,After,8,0,in flight,09.26,A
+R961,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R962,Zebra Dove,Geopelia striata,Columbidae,NA,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R963,Black-naped oriole,Oriolus chinensis,Oriolidae,NA,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R964,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R965,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R966,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R967,Cinereous Tit,Parus cinereus,Paridae,NA,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R968,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R969,Bar-winged Prinia,Prinia familiaris,Cisticolidae,200,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R970,Zebra Dove,Geopelia striata,Columbidae,200,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R971,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R972,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,10,O,C10,reduced,02/02/2019,After,8,0,.,09.26,A
+R973,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,C12,normal,02/02/2019,After,8,0,.,09.40,A
+R974,Cinereous Tit,Parus cinereus,Paridae,NA,H,C12,normal,02/02/2019,After,8,0,.,09.40,A
+R975,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,C12,normal,02/02/2019,After,8,0,.,09.40,A
+R976,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,C12,normal,02/02/2019,After,8,0,.,09.40,A
+R977,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C12,normal,02/02/2019,After,8,0,.,09.40,A
+R978,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C12,normal,02/02/2019,After,8,0,.,09.40,A
+R979,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C12,normal,02/02/2019,After,8,0,.,09.40,A
+R980,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C12,normal,02/02/2019,After,8,0,.,09.40,A
+R981,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C12,normal,02/02/2019,After,8,0,.,09.40,A
+R982,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R983,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R984,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R985,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R986,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R987,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R988,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R989,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R990,Zebra Dove,Geopelia striata,Columbidae,200,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R991,Greater Coucal,Centropus sinensis,Cuculidae,60,O,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R992,Cinereous Tit,Parus cinereus,Paridae,50,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R993,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,C18,normal,02/02/2019,After,8,0,.,10.02,A
+R994,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R995,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R996,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R997,Plaintive Cuckoo,Cacomantis merulinus,Cuculidae,NA,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R998,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R999,Spotted Dove,Spilopelia chinensis,Columbidae,200,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R1000,Spotted Dove,Spilopelia chinensis,Columbidae,200,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R1001,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R1002,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,200,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R1003,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,150,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R1004,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,100,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R1005,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,100,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R1006,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R1007,Greater Coucal,Centropus sinensis,Cuculidae,50,O,C17,enhanced,02/02/2019,After,8,0,.,10.16,A
+R1008,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C19,reduced,02/02/2019,After,8,0,.,10.31,A
+R1009,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C19,reduced,02/02/2019,After,8,0,.,10.31,A
+R1010,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,C19,reduced,02/02/2019,After,8,0,.,10.31,A
+R1011,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C19,reduced,02/02/2019,After,8,0,.,10.31,A
+R1012,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C19,reduced,02/02/2019,After,8,0,.,10.31,A
+R1013,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C19,reduced,02/02/2019,After,8,0,.,10.31,A
+R1014,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,200,H,C19,reduced,02/02/2019,After,8,0,.,10.31,A
+R1015,Zebra Dove,Geopelia striata,Columbidae,200,H,C19,reduced,02/02/2019,After,8,0,.,10.31,A
+R1016,Spotted Dove,Spilopelia chinensis,Columbidae,NA,,C19,reduced,02/02/2019,After,8,0,.,10.31,A
+R1017,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1018,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1019,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1020,Cinereous Tit,Parus cinereus,Paridae,NA,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1021,Cinereous Tit,Parus cinereus,Paridae,NA,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1022,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1023,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1024,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1025,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,200,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1026,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1027,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,60,H,G09,reduced,04/02/2019,After,8,0,.,08.28,A
+R1028,Slender-billed crow,Corvus enca,Corvidae,NA,H,G08,normal,04/02/2019,After,8,0,in flight,08.43,A
+R1029,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1030,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1031,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1032,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1033,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1034,Pied fantail,Rhipidura javanica,Rhipiduridae,NA,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1035,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,200,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1036,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,200,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1037,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1038,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1039,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,200,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1040,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1041,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1042,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,25,H,G08,normal,04/02/2019,After,8,0,.,08.43,A
+R1043,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G07,enhanced,04/02/2019,After,8,0,.,08.59,A
+R1044,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G07,enhanced,04/02/2019,After,8,0,.,08.59,A
+R1045,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,G07,enhanced,04/02/2019,After,8,0,.,08.59,A
+R1046,Spotted Dove,Spilopelia chinensis,Columbidae,200,H,G07,enhanced,04/02/2019,After,8,0,.,08.59,A
+R1047,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,150,H,G07,enhanced,04/02/2019,After,8,0,.,08.59,A
+R1048,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,100,H,G07,enhanced,04/02/2019,After,8,0,.,08.59,A
+R1049,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,100,H,G07,enhanced,04/02/2019,After,8,0,.,08.59,A
+R1050,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,G07,enhanced,04/02/2019,After,8,0,.,08.59,A
+R1051,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G16,enhanced,04/02/2019,After,8,0,.,09.26,A
+R1052,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G16,enhanced,04/02/2019,After,8,0,.,09.26,A
+R1053,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G16,enhanced,04/02/2019,After,8,0,.,09.26,A
+R1054,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G16,enhanced,04/02/2019,After,8,0,.,09.26,A
+R1055,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,100,H,G16,enhanced,04/02/2019,After,8,0,.,09.26,A
+R1056,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,G16,enhanced,04/02/2019,After,8,0,.,09.26,A
+R1057,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,G16,enhanced,04/02/2019,After,8,0,.,09.26,A
+R1058,Cinereous Tit,Parus cinereus,Paridae,100,H,G16,enhanced,04/02/2019,After,8,0,.,09.26,A
+R1059,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,G16,enhanced,04/02/2019,After,8,0,.,09.26,A
+R1060,Barn swallow,Hirundo rustica,Hirundinidae,NA,O,G14,reduced,04/02/2019,After,8,0,in flight,09.42,A
+R1061,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1062,Red Junglefowl,Gallus gallus,Phasianidae,NA,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1063,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1064,Spotted Dove,Spilopelia chinensis,Columbidae,200,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1065,Zebra Dove,Geopelia striata,Columbidae,200,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1066,Cinereous Tit,Parus cinereus,Paridae,200,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1067,Cinereous Tit,Parus cinereus,Paridae,200,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1068,Pied fantail,Rhipidura javanica,Rhipiduridae,200,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1069,Bar-winged Prinia,Prinia familiaris,Cisticolidae,200,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1070,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,150,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1071,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1072,Cinereous Tit,Parus cinereus,Paridae,100,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1073,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,100,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1074,Greater Coucal,Centropus sinensis,Cuculidae,50,H,G14,reduced,04/02/2019,After,8,0,.,09.42,A
+R1075,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1076,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1077,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1078,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1079,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1080,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1081,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1082,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1083,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1084,Barn swallow,Hirundo rustica,Hirundinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1085,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,NA,G15,normal,04/02/2019,After,8,0,in flight,09.56,A
+R1086,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1087,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1088,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1089,Bar-winged Prinia,Prinia familiaris,Cisticolidae,150,H,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1090,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,150,H,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1091,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,O,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1092,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,O,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1093,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1094,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1095,Cinereous Tit,Parus cinereus,Paridae,40,H,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1096,Cinereous Tit,Parus cinereus,Paridae,40,H,G15,normal,04/02/2019,After,8,0,.,09.56,A
+R1097,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1098,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1099,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1100,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1101,Zebra Dove,Geopelia striata,Columbidae,NA,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1102,Cinereous Tit,Parus cinereus,Paridae,NA,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1103,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1104,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1105,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1106,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,F04,enhanced,04/02/2019,After,8,0,.,10.22,A
+R1107,Red Junglefowl,Gallus gallus,Phasianidae,NA,H,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1108,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1109,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1110,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1111,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1112,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1113,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1114,Zebra Dove,Geopelia striata,Columbidae,200,H,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1115,Cinereous Tit,Parus cinereus,Paridae,60,H,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1116,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,15,O,F05,reduced,04/02/2019,After,8,0,.,10.37,A
+R1117,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1118,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1119,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1120,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1121,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1122,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1123,Bar-winged Prinia,Prinia familiaris,Cisticolidae,200,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1124,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1125,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1126,Olive-winged Bulbul,Pycnonotus plumosus,Pycnonotidae,70,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1127,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,20,H,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1128,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,15,O,F06,normal,04/02/2019,After,8,0,.,10.52,A
+R1129,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1130,Zebra Dove,Geopelia striata,Columbidae,NA,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1131,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1132,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1133,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1134,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1135,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1136,Spotted Dove,Spilopelia chinensis,Columbidae,200,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1137,Greater Coucal,Centropus sinensis,Cuculidae,100,O,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1138,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1139,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1140,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,45,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1141,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1142,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,O,F06,normal,14/08/2019,After,9,0,.,08.18,A
+R1143,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1144,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1145,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1146,Cinereous Tit,Parus cinereus,Paridae,NA,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1147,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1148,Zebra Dove,Geopelia striata,Columbidae,150,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1149,Cinereous Tit,Parus cinereus,Paridae,150,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1150,Bar-winged Prinia,Prinia familiaris,Cisticolidae,120,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1151,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,80,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1152,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1153,Cinereous Tit,Parus cinereus,Paridae,30,H,F05,reduced,14/08/2019,After,9,0,.,08.36,A
+R1154,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1155,Zebra Dove,Geopelia striata,Columbidae,NA,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1156,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,200,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1157,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,150,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1158,Bar-winged Prinia,Prinia familiaris,Cisticolidae,150,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1159,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1160,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1161,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1162,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1163,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1164,Cinereous Tit,Parus cinereus,Paridae,20,H,F04,enhanced,14/08/2019,After,9,0,harvest activity,08.53,A
+R1165,Magpie robin,Copsychus saularis,Muscicapidae,NA,H,G09,reduced,14/08/2019,After,9,1,90% acc,09.16,A
+R1166,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1167,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1168,Zebra Dove,Geopelia striata,Columbidae,NA,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1169,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1170,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,150,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1171,Bar-winged Prinia,Prinia familiaris,Cisticolidae,80,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1172,Spotted Dove,Spilopelia chinensis,Columbidae,70,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1173,Cinereous Tit,Parus cinereus,Paridae,60,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1174,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,50,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1175,Spotted Dove,Spilopelia chinensis,Columbidae,35,H,G09,reduced,14/08/2019,After,9,0,.,09.16,A
+R1176,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,G08,normal,14/08/2019,After,9,0,.,09.32,A
+R1177,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G08,normal,14/08/2019,After,9,0,.,09.32,A
+R1178,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,200,H,G08,normal,14/08/2019,After,9,0,.,09.32,A
+R1179,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,200,H,G08,normal,14/08/2019,After,9,0,.,09.32,A
+R1180,Cinereous Tit,Parus cinereus,Paridae,150,H,G08,normal,14/08/2019,After,9,0,.,09.32,A
+R1181,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G08,normal,14/08/2019,After,9,0,.,09.32,A
+R1182,Bar-winged Prinia,Prinia familiaris,Cisticolidae,45,H,G08,normal,14/08/2019,After,9,0,.,09.32,A
+R1183,Bar-winged Prinia,Prinia familiaris,Cisticolidae,25,H,G08,normal,14/08/2019,After,9,0,.,09.32,A
+R1184,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,G08,normal,14/08/2019,After,9,0,.,09.32,A
+R1185,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,G07,enhanced,14/08/2019,After,9,0,in fern CR,09.47,A
+R1186,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,G07,enhanced,14/08/2019,After,9,0,in fern CR,09.47,A
+R1187,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G07,enhanced,14/08/2019,After,9,0,.,09.47,A
+R1188,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G07,enhanced,14/08/2019,After,9,0,.,09.47,A
+R1189,Bar-winged Prinia,Prinia familiaris,Cisticolidae,55,H,G07,enhanced,14/08/2019,After,9,0,.,09.47,A
+R1190,Spotted Dove,Spilopelia chinensis,Columbidae,50,H,G07,enhanced,14/08/2019,After,9,0,.,09.47,A
+R1191,Bar-winged Prinia,Prinia familiaris,Cisticolidae,45,H,G07,enhanced,14/08/2019,After,9,0,.,09.47,A
+R1192,Rufous Woodpecker,Micropternus brachyurus,Picidae,NA,H,G07,enhanced,14/08/2019,After,9,1,?,09.47,A
+R1193,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,C10,reduced,15/08/2019,After,9,0,after rain at night,08.21,A
+R1194,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1195,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1196,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1197,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1198,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1199,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,200,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1200,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,150,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1201,Zebra Dove,Geopelia striata,Columbidae,100,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1202,Zebra Dove,Geopelia striata,Columbidae,100,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1203,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1204,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1205,Bar-winged Prinia,Prinia familiaris,Cisticolidae,80,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1206,Bar-winged Prinia,Prinia familiaris,Cisticolidae,80,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1207,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H/O,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1208,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,H,C10,reduced,15/08/2019,After,9,0,.,08.21,A
+R1209,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C11,enhanced,15/08/2019,After,9,0,.,08.38,A
+R1210,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C11,enhanced,15/08/2019,After,9,0,.,08.38,A
+R1211,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C11,enhanced,15/08/2019,After,9,0,.,08.38,A
+R1212,Spotted Dove,Spilopelia chinensis,Columbidae,120,H,C11,enhanced,15/08/2019,After,9,0,.,08.38,A
+R1213,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,C11,enhanced,15/08/2019,After,9,0,.,08.38,A
+R1214,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,60,H,C11,enhanced,15/08/2019,After,9,0,.,08.38,A
+R1215,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,45,H,C11,enhanced,15/08/2019,After,9,0,.,08.38,A
+R1216,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,C11,enhanced,15/08/2019,After,9,0,.,08.38,A
+R1217,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C11,enhanced,15/08/2019,After,9,0,.,08.38,A
+R1218,Zebra Dove,Geopelia striata,Columbidae,NA,H,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1219,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1220,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1221,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1222,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1223,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1224,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,60,H,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1225,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,O,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1226,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,O,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1227,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C12,normal,15/08/2019,After,9,0,.,08.59,A
+R1228,Rufous Woodpecker,Micropternus brachyurus,Picidae,NA,H,C12,normal,15/08/2019,After,9,1,?,08.59,A
+R1229,Olive-winged Bulbul,Pycnonotus plumosus,Pycnonotidae,35,H/O,C17,enhanced,15/08/2019,After,9,0,rec.190815_001,09.47,A
+R1230,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1231,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1232,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1233,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1234,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,150,H,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1235,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,100,H,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1236,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1237,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1238,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,35,H,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1239,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,O,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1240,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,O,C17,enhanced,15/08/2019,After,9,0,.,09.47,A
+R1241,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C18,normal,15/08/2019,After,9,0,harvest activity,10.06,A
+R1242,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C18,normal,15/08/2019,After,9,0,harvest activity,10.06,A
+R1243,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C18,normal,15/08/2019,After,9,0,harvest activity,10.06,A
+R1244,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C18,normal,15/08/2019,After,9,0,harvest activity,10.06,A
+R1245,Zebra Dove,Geopelia striata,Columbidae,NA,H,C18,normal,15/08/2019,After,9,0,harvest activity,10.06,A
+R1246,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C18,normal,15/08/2019,After,9,0,harvest activity,10.06,A
+R1247,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C19,reduced,15/08/2019,After,9,0,.,10.21,A
+R1248,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C19,reduced,15/08/2019,After,9,0,.,10.21,A
+R1249,Zebra Dove,Geopelia striata,Columbidae,NA,H,C19,reduced,15/08/2019,After,9,0,.,10.21,A
+R1250,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,200,H,C19,reduced,15/08/2019,After,9,0,.,10.21,A
+R1251,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,100,H,C19,reduced,15/08/2019,After,9,0,.,10.21,A
+R1252,Spotted Dove,Spilopelia chinensis,Columbidae,90,H,C19,reduced,15/08/2019,After,9,0,.,10.21,A
+R1253,Bar-winged Prinia,Prinia familiaris,Cisticolidae,80,H,C19,reduced,15/08/2019,After,9,0,.,10.21,A
+R1254,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,C19,reduced,15/08/2019,After,9,0,.,10.21,A
+R1255,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1256,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1257,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1258,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1259,Cinereous Tit,Parus cinereus,Paridae,NA,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1260,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1261,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1262,Zebra Dove,Geopelia striata,Columbidae,120,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1263,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1264,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1265,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,100,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1266,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,70,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1267,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,40,H,D30,normal,26/08/2019,After,9,0,.,08.00,A
+R1268,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1269,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1270,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1271,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1272,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1273,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1274,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1275,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,150,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1276,Greater Coucal,Centropus sinensis,Cuculidae,70,O,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1277,Zebra Dove,Geopelia striata,Columbidae,50,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1278,Zebra Dove,Geopelia striata,Columbidae,50,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1279,Greater Coucal,Centropus sinensis,Cuculidae,40,O,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1280,Spotted Dove,Spilopelia chinensis,Columbidae,20,H,D29,reduced,26/08/2019,After,9,0,.,08.19,A
+R1281,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1282,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1283,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1284,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1285,Zebra Dove,Geopelia striata,Columbidae,100,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1286,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1287,Spotted Dove,Spilopelia chinensis,Columbidae,50,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1288,Spotted Dove,Spilopelia chinensis,Columbidae,50,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1289,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,50,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1290,Cinereous Tit,Parus cinereus,Paridae,30,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1291,Cinereous Tit,Parus cinereus,Paridae,20,O,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1292,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,D28,enhanced,26/08/2019,After,9,0,.,08.33,A
+R1293,Rufous Woodpecker,Micropternus brachyurus,Picidae,30,H,D28,enhanced,26/08/2019,After,9,1,?,08.33,A
+R1294,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G14,reduced,26/08/2019,After,9,0,in fern CR,09.07,A
+R1295,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G14,reduced,26/08/2019,After,9,0,in fern CR,09.07,A
+R1296,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G14,reduced,26/08/2019,After,9,0,.,09.07,A
+R1297,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G14,reduced,26/08/2019,After,9,0,.,09.07,A
+R1298,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G14,reduced,26/08/2019,After,9,0,.,09.07,A
+R1299,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,G14,reduced,26/08/2019,After,9,0,.,09.07,A
+R1300,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,G14,reduced,26/08/2019,After,9,0,.,09.07,A
+R1301,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G14,reduced,26/08/2019,After,9,0,.,09.07,A
+R1302,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1303,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1304,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1305,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1306,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1307,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1308,Zebra Dove,Geopelia striata,Columbidae,100,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1309,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1310,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,40,O,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1311,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,25,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1312,Cinereous Tit,Parus cinereus,Paridae,10,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1313,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1314,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,G15,normal,26/08/2019,After,9,0,.,09.26,A
+R1315,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1316,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1317,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1318,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1319,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1320,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,120,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1321,Zebra Dove,Geopelia striata,Columbidae,80,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1322,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,70,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1323,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1324,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1325,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1326,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,30,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1327,Cinereous Tit,Parus cinereus,Paridae,20,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1328,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G16,enhanced,26/08/2019,After,9,0,.,09.45,A
+R1329,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1330,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1331,Zebra Dove,Geopelia striata,Columbidae,NA,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1332,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1333,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1334,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1335,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,100,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1336,Bar-winged Prinia,Prinia familiaris,Cisticolidae,90,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1337,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1338,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1339,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1340,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1341,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,H,F04,enhanced,05/09/2019,After,10,0,.,09.00,A
+R1342,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1343,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1344,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,80,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1345,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,80,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1346,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,80,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1347,Zebra Dove,Geopelia striata,Columbidae,80,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1348,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,80,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1349,Greater Coucal,Centropus sinensis,Cuculidae,70,O,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1350,Spotted Dove,Spilopelia chinensis,Columbidae,40,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1351,Olive-winged Bulbul,Pycnonotus plumosus,Pycnonotidae,30,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1352,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,F05,reduced,05/09/2019,After,10,0,.,09.49,A
+R1353,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1354,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1355,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1356,Zebra Dove,Geopelia striata,Columbidae,NA,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1357,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1358,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1359,Cinereous Tit,Parus cinereus,Paridae,50,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1360,White-breasted Waterhen,Amaurornis phoenicurus,Rallidae,50,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1361,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,40,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1362,Olive-winged Bulbul,Pycnonotus plumosus,Pycnonotidae,25,H,F06,normal,05/09/2019,After,10,0,.,10.34,A
+R1363,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1364,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1365,Zebra Dove,Geopelia striata,Columbidae,NA,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1366,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1367,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1368,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1369,Cinereous Tit,Parus cinereus,Paridae,30,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1370,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1371,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1372,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1373,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,15,O,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1374,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,15,O,G16,enhanced,06/09/2019,After,10,0,.,07.52,A
+R1375,Edible-nest swiftlet,Aerodramus fuciphagus,Apodidae,NA,O,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1376,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1377,Zebra Dove,Geopelia striata,Columbidae,120,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1378,Zebra Dove,Geopelia striata,Columbidae,100,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1379,Spotted Dove,Spilopelia chinensis,Columbidae,100,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1380,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,90,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1381,Bar-winged Prinia,Prinia familiaris,Cisticolidae,80,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1382,Bar-winged Prinia,Prinia familiaris,Cisticolidae,80,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1383,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,70,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1384,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1385,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,25,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1386,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1387,Cinereous Tit,Parus cinereus,Paridae,15,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1388,Cinereous Tit,Parus cinereus,Paridae,15,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1389,Cinereous Tit,Parus cinereus,Paridae,15,O,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1390,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,15,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1391,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,G15,normal,06/09/2019,After,10,0,.,08.06,A
+R1392,Cinereous Tit,Parus cinereus,Paridae,30,O,G14,reduced,06/09/2019,After,10,0,on dead twig,08.19,A
+R1393,Cinereous Tit,Parus cinereus,Paridae,30,O,G14,reduced,06/09/2019,After,10,0,on dead twig,08.19,A
+R1394,Cinereous Tit,Parus cinereus,Paridae,30,O,G14,reduced,06/09/2019,After,10,0,on dead twig,08.19,A
+R1395,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G14,reduced,06/09/2019,After,10,0,.,08.19,A
+R1396,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,G14,reduced,06/09/2019,After,10,0,.,08.19,A
+R1397,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G14,reduced,06/09/2019,After,10,0,.,08.19,A
+R1398,Zebra Dove,Geopelia striata,Columbidae,NA,H,G14,reduced,06/09/2019,After,10,0,.,08.19,A
+R1399,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,80,H,G14,reduced,06/09/2019,After,10,0,.,08.19,A
+R1400,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,80,H,G14,reduced,06/09/2019,After,10,0,.,08.19,A
+R1401,Cinereous Tit,Parus cinereus,Paridae,20,H,G14,reduced,06/09/2019,After,10,0,.,08.19,A
+R1402,Bar-winged Prinia,Prinia familiaris,Cisticolidae,20,H,G14,reduced,06/09/2019,After,10,0,.,08.19,A
+R1403,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1404,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1405,Bar-winged Prinia,Prinia familiaris,Cisticolidae,120,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1406,Bar-winged Prinia,Prinia familiaris,Cisticolidae,120,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1407,Bar-winged Prinia,Prinia familiaris,Cisticolidae,120,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1408,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,80,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1409,Cinereous Tit,Parus cinereus,Paridae,80,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1410,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1411,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1412,Zebra Dove,Geopelia striata,Columbidae,40,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1413,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,20,H,G09,reduced,06/09/2019,After,10,0,.,08.35,A
+R1414,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1415,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1416,Zebra Dove,Geopelia striata,Columbidae,NA,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1417,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1418,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1419,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1420,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,100,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1421,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,60,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1422,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,35,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1423,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,G08,normal,06/09/2019,After,10,0,.,08.49,A
+R1424,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1425,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1426,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1427,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,70,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1428,Zebra Dove,Geopelia striata,Columbidae,50,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1429,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1430,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1431,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1432,Cinereous Tit,Parus cinereus,Paridae,20,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1433,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,G07,enhanced,06/09/2019,After,10,0,.,09.02,A
+R1434,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1435,Cinereous Tit,Parus cinereus,Paridae,NA,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1436,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1437,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1438,Plaintive cuckoo,Cacomantis merulinus,Cuculidae,NA,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1439,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1440,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1441,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,150,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1442,Zebra Dove,Geopelia striata,Columbidae,100,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1443,Zebra Dove,Geopelia striata,Columbidae,100,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1444,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1445,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1446,Cinereous Tit,Parus cinereus,Paridae,15,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1447,Cinereous Tit,Parus cinereus,Paridae,15,H,C19,reduced,07/09/2019,After,10,0,.,07.28,A
+R1448,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1449,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1450,Bar-winged Prinia,Prinia familiaris,Cisticolidae,NA,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1451,Zebra Dove,Geopelia striata,Columbidae,NA,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1452,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,65,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1453,Bar-winged Prinia,Prinia familiaris,Cisticolidae,65,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1454,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,45,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1455,Bar-winged Prinia,Prinia familiaris,Cisticolidae,40,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1456,Spotted Dove,Spilopelia chinensis,Columbidae,30,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1457,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,30,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1458,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,20,H,C18,normal,07/09/2019,After,10,0,.,07.41,A
+R1459,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1460,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1461,Zebra Dove,Geopelia striata,Columbidae,NA,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1462,Zebra Dove,Geopelia striata,Columbidae,120,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1463,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,100,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1464,Cinereous Tit,Parus cinereus,Paridae,50,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1465,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,50,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1466,Spotted Dove,Spilopelia chinensis,Columbidae,45,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1467,Rufous Woodpecker,Micropternus brachyurus,Picidae,40,O,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1468,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1469,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,25,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1470,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1471,Cinereous Tit,Parus cinereus,Paridae,20,H,C17,enhanced,07/09/2019,After,10,0,.,07.56,A
+R1472,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1473,Rufous Woodpecker,Micropternus brachyurus,Picidae,NA,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1474,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1475,Greater Coucal,Centropus sinensis,Cuculidae,200,O,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1476,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1477,Zebra Dove,Geopelia striata,Columbidae,90,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1478,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,80,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1479,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,60,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1480,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1481,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1482,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1483,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1484,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,25,H,C12,normal,07/09/2019,After,10,0,.,08.26,A
+R1485,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1486,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1487,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1488,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,100,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1489,Cinereous Tit,Parus cinereus,Paridae,100,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1490,Bar-winged Prinia,Prinia familiaris,Cisticolidae,60,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1491,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,60,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1492,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,50,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1493,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,40,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1494,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,25,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1495,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1496,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,15,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1497,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1498,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,10,H,C11,enhanced,07/09/2019,After,10,0,.,08.39,A
+R1499,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C10,reduced,07/09/2019,After,10,0,harvest activity,08.51,A
+R1500,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,C10,reduced,07/09/2019,After,10,0,harvest activity,08.51,A
+R1501,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,C10,reduced,07/09/2019,After,10,0,harvest activity,08.51,A
+R1502,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,NA,H,C10,reduced,07/09/2019,After,10,0,harvest activity,08.51,A
+R1503,Cinereous Tit,Parus cinereus,Paridae,NA,H,C10,reduced,07/09/2019,After,10,0,harvest activity,08.51,A
+R1504,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,C10,reduced,07/09/2019,After,10,0,harvest activity,08.51,A
+R1505,Bar-winged Prinia,Prinia familiaris,Cisticolidae,70,H,C10,reduced,07/09/2019,After,10,0,harvest activity,08.51,A
+R1506,Spotted Dove,Spilopelia chinensis,Columbidae,60,H,C10,reduced,07/09/2019,After,10,0,harvest activity,08.51,A
+R1507,Spotted Dove,Spilopelia chinensis,Columbidae,50,H,C10,reduced,07/09/2019,After,10,0,harvest activity,08.51,A
+R1508,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1509,Zebra Dove,Geopelia striata,Columbidae,NA,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1510,Zebra Dove,Geopelia striata,Columbidae,NA,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1511,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1512,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1513,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1514,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,100,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1515,Bar-winged Prinia,Prinia familiaris,Cisticolidae,80,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1516,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,65,O,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1517,Sooty-headed Bulbul,Pycnonotus aurigaster,Pycnonotidae,65,O,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1518,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,50,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1519,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,50,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1520,Greater Coucal,Centropus sinensis,Cuculidae,50,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1521,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,50,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1522,Spotted Dove,Spilopelia chinensis,Columbidae,40,H,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1523,Greater Coucal,Centropus sinensis,Cuculidae,10,O,D28,enhanced,09/09/2019,After,10,0,.,08.39,A
+R1524,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,NA,H,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1525,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1526,Rufous Woodpecker,Micropternus brachyurus,Picidae,NA,H,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1527,Spotted Dove,Spilopelia chinensis,Columbidae,NA,H,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1528,Yellow-vented Bulbul,Pycnonotus goiavier,Pycnonotidae,NA,H,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1529,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,150,H,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1530,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,100,H,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1531,Bar-winged Prinia,Prinia familiaris,Cisticolidae,100,H,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1532,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,40,O,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1533,Zebra Dove,Geopelia striata,Columbidae,35,H,D29,reduced,09/09/2019,After,10,0,.,08.56,A
+R1534,White-breasted Kingfisher,Halcyon smyrnensis,Alcedinidae,NA,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1535,Sunda Pied Fantail,Rhipidura javanica,Rhipiduridae,NA,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1536,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1537,Greater Coucal,Centropus sinensis,Cuculidae,NA,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1538,Zebra Dove,Geopelia striata,Columbidae,120,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1539,Bar-winged Prinia,Prinia familiaris,Cisticolidae,80,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1540,Spotted Dove,Spilopelia chinensis,Columbidae,40,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1541,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,40,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1542,Cinereous Tit,Parus cinereus,Paridae,30,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1543,Cinereous Tit,Parus cinereus,Paridae,30,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1544,Bar-winged Prinia,Prinia familiaris,Cisticolidae,30,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1545,Zebra Dove,Geopelia striata,Columbidae,30,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1546,Ashy Tailorbird,Orthotomus ruficeps,Cisticolidae,20,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
+R1547,Rufous-tailed Tailorbird,Orthotomus sericeus,Cisticolidae,20,H,D30,normal,09/09/2019,After,10,0,.,09.14,A
