@@ -3,6 +3,8 @@ library(tidyverse)
 # for multivariate analysis and species accumulation curves
 library(vegan)
 
+library(gridExtra)
+
 # load data
 birds.full <- read_csv("./BEFTA birds 2013-2019 final 12.06.2020.csv")
 
@@ -212,6 +214,7 @@ wider.birds %>%
 
 # my preliminary feeling is that we will see differences in community composition but not overall richness
 
+# note that this is NMDS for everything together..
 # NMDS on the data (excluding first 5 columns)
 nmds.all <- metaMDS(wider.birds[,-c(1:5)], k = 3)
 scores(nmds.all)
@@ -223,20 +226,54 @@ view(nmds.graph)
 nmds.graph %>%
   ggplot() +
   theme_classic(16) +
-  geom_point(aes(x = NMDS1, y = NMDS2, shape = stage, color = stage))
+  geom_point(aes(x = NMDS1, y = NMDS2, shape = treatment, color = stage))
 
 # display for all sites, after
-nmds.graph %>%
+nmds1b <- nmds.graph %>%
   subset(stage == "After") %>%
   ggplot() +
-  theme_classic(16) +
+  theme_classic() +
   geom_point(aes(x = NMDS1, y = NMDS2, shape = treatment, color = treatment)) +
-  labs( x = "NMDS1", y = "NMDS2", title = "After treatment")
+  labs( x = "NMDS1", y = "NMDS2", title = "b) 2018-9, after treatment")
 
 # display for all sites, before 
-nmds.graph %>%
+nmds1a <- nmds.graph %>%
   subset(stage == "Before") %>%
   ggplot() +
-  theme_classic(16) +
+  theme_classic() +
+  theme(legend.position = "none") +
   geom_point(aes(x = NMDS1, y = NMDS2, shape = treatment, color = treatment)) +
-  labs( x = "NMDS1", y = "NMDS2", title = "Before treatment")
+  labs( x = "NMDS1", y = "NMDS2", title = "a) 2013, before treatment")
+
+grid.arrange(nmds1a, nmds1b, ncol =2)
+
+# but I can see that being an issue. What if we did the NMDS calculations separately?
+
+head(wider.birds)
+
+wider.birds.before <- wider.birds %>%
+  subset(stage == "Before")
+
+nmds.before <- metaMDS(vegdist(wider.birds.before[,-c(1:5)]), k = 2)
+str(wider.birds.before[,c(1:5)])
+str(scores(nmds.before))
+
+figure.nmds.before <- data.frame(wider.birds.before[,c(1:5)], scores(nmds.before))
+ggplot(figure.nmds.before) +
+  theme_classic() +
+  geom_point(aes(x = NMDS1, y = NMDS2, shape = treatment, color = treatment)) +
+  scale_color_manual(values = c("dark green", "blue", "red")) +
+  
+
+ggsave(filename = paste0("NMDS.before.only.", 
+                         format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
+dpi = "print", units = "mm", device="png")
+
+ggplot(figure.nmds.before) +
+  theme_classic() +
+  geom_text(aes(x = NMDS1, y = NMDS2, label = plot, color = treatment)) +
+  scale_color_manual(values = c("dark green", "blue", "red")) 
+  
+ggsave(filename = paste0("NMDS.before.only.w.plot.labels.", 
+                           format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
+         dpi = "print", units = "mm", device="png")
