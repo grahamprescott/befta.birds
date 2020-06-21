@@ -277,3 +277,35 @@ ggplot(figure.nmds.before) +
 ggsave(filename = paste0("NMDS.before.only.w.plot.labels.", 
                            format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
          dpi = "print", units = "mm", device="png")
+
+# now for the after plot:
+
+head(wider.birds)
+
+wider.birds.after <- wider.birds %>%
+  subset(stage == "After")
+
+nmds.after <- metaMDS(vegdist(wider.birds.after[,-c(1:5)]), k = 2)
+# k=2, Run 20 stress 0.0001820022 
+str(wider.birds.after[,c(1:5)])
+str(scores(nmds.after))
+# k=2, Run 20 stress 0.1019276 
+figure.nmds.after <- data.frame(wider.birds.after[,c(1:5)], scores(nmds.after))
+ggplot(figure.nmds.after) +
+  theme_classic() +
+  geom_point(aes(x = NMDS1, y = NMDS2, shape = treatment, color = treatment)) +
+  scale_color_manual(values = c("dark green", "blue", "red")) +
+  
+  
+ggsave(filename = paste0("NMDS.after.only.", 
+                           format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
+         dpi = "print", units = "mm", device="png")
+
+ggplot(figure.nmds.after) +
+  theme_classic() +
+  geom_text(aes(x = NMDS1, y = NMDS2, label = plot, color = treatment)) +
+  scale_color_manual(values = c("dark green", "blue", "red")) 
+
+ggsave(filename = paste0("NMDS.after.only.w.plot.labels.", 
+                         format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
+       dpi = "print", units = "mm", device="png")
