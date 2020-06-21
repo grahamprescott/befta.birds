@@ -309,3 +309,22 @@ ggplot(figure.nmds.after) +
 ggsave(filename = paste0("NMDS.after.only.w.plot.labels.", 
                          format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
        dpi = "print", units = "mm", device="png")
+
+# PERMANOVA:
+
+# for stage x treatment interactions:
+
+data.sp <- wider.birds[,-c(1:5)]
+data.env <- wider.birds[,c(1:5)]
+
+data.sp.before <- wider.birds.before[,-c(1:5)]
+data.env.before <- wider.birds.before[,c(1:5)]
+
+data.sp.after <- wider.birds.after[,-c(1:5)]
+data.env.after <- wider.birds.after[,c(1:5)]
+
+adonis(data.sp~stage*treatment, data=data.env, permutations = 999)
+
+adonis(data.sp.before~treatment, data=data.env.before, permutations = 999)
+
+adonis(data.sp.after~treatment, data=data.env.after, permutations = 999)
