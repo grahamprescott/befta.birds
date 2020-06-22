@@ -265,18 +265,18 @@ ggplot(figure.nmds.before) +
   scale_color_manual(values = c("dark green", "blue", "red")) +
   
 
-ggsave(filename = paste0("NMDS.before.only.", 
-                         format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
-dpi = "print", units = "mm", device="png")
+#ggsave(filename = paste0("NMDS.before.only.", 
+#                        format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
+#       dpi = "print", units = "mm", device="png")
 
 ggplot(figure.nmds.before) +
   theme_classic() +
   geom_text(aes(x = NMDS1, y = NMDS2, label = plot, color = treatment)) +
   scale_color_manual(values = c("dark green", "blue", "red")) 
   
-ggsave(filename = paste0("NMDS.before.only.w.plot.labels.", 
+#ggsave(filename = paste0("NMDS.before.only.w.plot.labels.", 
                            format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
-         dpi = "print", units = "mm", device="png")
+#         dpi = "print", units = "mm", device="png")
 
 # now for the after plot:
 
@@ -297,18 +297,18 @@ ggplot(figure.nmds.after) +
   scale_color_manual(values = c("dark green", "blue", "red")) +
   
   
-ggsave(filename = paste0("NMDS.after.only.", 
+#ggsave(filename = paste0("NMDS.after.only.", 
                            format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
-         dpi = "print", units = "mm", device="png")
+#         dpi = "print", units = "mm", device="png")
 
 ggplot(figure.nmds.after) +
   theme_classic() +
   geom_text(aes(x = NMDS1, y = NMDS2, label = plot, color = treatment)) +
   scale_color_manual(values = c("dark green", "blue", "red")) 
 
-ggsave(filename = paste0("NMDS.after.only.w.plot.labels.", 
+#ggsave(filename = paste0("NMDS.after.only.w.plot.labels.", 
                          format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
-       dpi = "print", units = "mm", device="png")
+#       dpi = "print", units = "mm", device="png")
 
 # PERMANOVA:
 
@@ -323,8 +323,8 @@ data.env.before <- wider.birds.before[,c(1:5)]
 data.sp.after <- wider.birds.after[,-c(1:5)]
 data.env.after <- wider.birds.after[,c(1:5)]
 
-adonis(data.sp~stage*treatment, data=data.env, permutations = 999)
+#adonis(data.sp~stage*treatment, data=data.env, permutations = 999)
 
-adonis(data.sp.before~treatment, data=data.env.before, permutations = 999)
+#adonis(data.sp.before~treatment, data=data.env.before, permutations = 999)
 
-adonis(data.sp.after~treatment, data=data.env.after, permutations = 999)
+#adonis(data.sp.after~treatment, data=data.env.after, permutations = 999)
