@@ -2,6 +2,8 @@
 library(tidyverse)
 # for multivariate analysis and species accumulation curves
 library(vegan)
+# for mixed effects models
+libary(lme4)
 
 library(gridExtra)
 
@@ -21,8 +23,9 @@ birds.full %>%
   subset(uncertain == 0) %>%
   group_by(family, latin, common) %>%
   count(sort=TRUE) %>%
-  write.csv("./TableS1.csv")
-  view()
+  head()
+  #write.csv("./TableS1.csv")
+  #view()
 
 birds.full %>%
   subset(uncertain != 0) %>%
@@ -155,15 +158,34 @@ birds %>%
   facet_wrap(~stage)  +
   labs( y = "number of individuals recorded", x = "", title = "")
 
+# together (note, not sure how to integrate Shannon diversity)
 
-# format for vegan [c.f. formating for data("BCI") in vegan vignette]
+birds %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(Abundance = length(common)) %>%
+  mutate(Richness = n_distinct(common)) %>%
+  #mutate(H = diversity(index = "Shannon")) %>%
+  select(stage, treatment, plot, round, Abundance, Richness) %>%
+  pivot_longer(-c(stage, treatment, plot, round), names_to = "measure", values_to = "value") %>%
+  ggplot() +
+  geom_boxplot(aes(x = treatment, y = value, fill = treatment)) +
+  scale_fill_manual(values = c("dark green", "blue", "red")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  facet_grid(rows = vars(measure), cols = vars(stage))  +
+  labs( y = "", x = "", title = "")
+
+#ggsave(filename = paste0("richness.abundance.before.after.",format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), dpi = "print", units = "mm", device="png")
+
 birds %>%
   select(common, plot, round) %>%
   unite("plot.round", plot:round) %>%
   group_by(plot.round, common) %>%
   summarise(count = length(common)) %>%
-  pivot_wider(names_from = common, values_from = count, values_fill = list(count = 0)) %>%
-  view()
+  head()
+#  pivot_wider(names_from = common, values_from = count, values_fill = list(count = 0)) %>%
+#  view()
 
 # create new variable
 wide.birds <- birds %>%
@@ -189,7 +211,7 @@ plot.summary <- birds %>%
 
 # join together to create 'wider.birds' dataset for NMDS and species richness estimates by treatment, stage, etc. 
 wider.birds <- merge(plot.summary, wide.birds)
-view(wider.birds)
+#view(wider.birds)
 
 # expected species richness after treatment - enhanced plots
 wider.birds %>%
@@ -220,7 +242,7 @@ nmds.all <- metaMDS(wider.birds[,-c(1:5)], k = 3)
 scores(nmds.all)
 
 nmds.graph <- data.frame(scores(nmds.all), wider.birds[,c(1:5)])
-view(nmds.graph)
+#view(nmds.graph)
 
 # display for all sites, before and after
 nmds.graph %>%
@@ -275,7 +297,7 @@ ggplot(figure.nmds.before) +
   scale_color_manual(values = c("dark green", "blue", "red")) 
   
 #ggsave(filename = paste0("NMDS.before.only.w.plot.labels.", 
-                           format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
+#                           format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
 #         dpi = "print", units = "mm", device="png")
 
 # now for the after plot:
@@ -298,7 +320,7 @@ ggplot(figure.nmds.after) +
   
   
 #ggsave(filename = paste0("NMDS.after.only.", 
-                           format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
+#                           format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
 #         dpi = "print", units = "mm", device="png")
 
 ggplot(figure.nmds.after) +
@@ -307,7 +329,7 @@ ggplot(figure.nmds.after) +
   scale_color_manual(values = c("dark green", "blue", "red")) 
 
 #ggsave(filename = paste0("NMDS.after.only.w.plot.labels.", 
-                         format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
+#                         format(Sys.time(), "%d-%b-%Y %H.%M"), ".png"), 
 #       dpi = "print", units = "mm", device="png")
 
 # PERMANOVA:
@@ -328,3 +350,22 @@ data.env.after <- wider.birds.after[,c(1:5)]
 #adonis(data.sp.before~treatment, data=data.env.before, permutations = 999)
 
 #adonis(data.sp.after~treatment, data=data.env.after, permutations = 999)
+
+# note that the NMDS graph looks weird, and it's possible the PERMANOVA is being skwewd by two outliers - G09 and D28
+# consider redoing with total species community observed at plot
+
+### MODELS ###
+
+model.data <- birds %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common))
+
+sr.model.0 <- lmer(sr ~ (1|plot), data=model.data)
+
+sr.model.1 <- lmer(sr ~ stage*treatment + (1|plot), data=model.data)
+
+n.model.0 <- lmer(n ~ (1|plot), data=model.data)
+
+n.model.1 <- lmer(n ~ stage*treatment + (1|plot), data=model.data)
