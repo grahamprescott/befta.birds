@@ -362,10 +362,22 @@ model.data <- birds %>%
   mutate(n = length(common)) %>%
   mutate(sr = n_distinct(common))
 
-sr.model.0 <- lmer(sr ~ (1|plot), data=model.data)
+sr.model.0 <- glmer(sr ~ (1|plot), data=model.data, family = poisson)
+summary(sr.model.0)
+plot(sr.model.0)
+AIC(sr.model.0)
 
-sr.model.1 <- lmer(sr ~ stage*treatment + (1|plot), data=model.data)
+sr.model.1 <- glmer(sr ~ stage*treatment + (1|plot), data=model.data, family=poisson)
+summary(sr.model.1)
+plot(sr.model.1)
+AIC(sr.model.1)
 
-n.model.0 <- lmer(n ~ (1|plot), data=model.data)
+n.model.0 <- glmer(n ~ (1|plot), data=model.data, family = poisson())
+summary(n.model.0)
+plot(n.model.0)
+AIC(n.model.0)
 
-n.model.1 <- lmer(n ~ stage*treatment + (1|plot), data=model.data)
+n.model.1 <- glmer(n ~ stage*treatment + (1|plot), data=model.data, family = poisson)
+summary(n.model.1)
+plot(n.model.1)
+AIC(n.model.1)
