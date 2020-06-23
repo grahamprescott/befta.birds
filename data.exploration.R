@@ -381,3 +381,7 @@ n.model.1 <- glmer(n ~ stage*treatment + (1|plot), data=model.data, family = poi
 summary(n.model.1)
 plot(n.model.1)
 AIC(n.model.1)
+
+# check model diagnositcs and Zuur et al. 2016
+
+# now for the invidivual species models
