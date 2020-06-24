@@ -354,34 +354,3 @@ data.env.after <- wider.birds.after[,c(1:5)]
 # note that the NMDS graph looks weird, and it's possible the PERMANOVA is being skwewd by two outliers - G09 and D28
 # consider redoing with total species community observed at plot
 
-### MODELS ###
-
-model.data <- birds %>%
-  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
-  group_by(round, plot) %>%
-  mutate(n = length(common)) %>%
-  mutate(sr = n_distinct(common))
-
-sr.model.0 <- glmer(sr ~ (1|plot), data=model.data, family = poisson)
-summary(sr.model.0)
-plot(sr.model.0)
-AIC(sr.model.0)
-
-sr.model.1 <- glmer(sr ~ stage*treatment + (1|plot), data=model.data, family=poisson)
-summary(sr.model.1)
-plot(sr.model.1)
-AIC(sr.model.1)
-
-n.model.0 <- glmer(n ~ (1|plot), data=model.data, family = poisson())
-summary(n.model.0)
-plot(n.model.0)
-AIC(n.model.0)
-
-n.model.1 <- glmer(n ~ stage*treatment + (1|plot), data=model.data, family = poisson)
-summary(n.model.1)
-plot(n.model.1)
-AIC(n.model.1)
-
-# check model diagnositcs and Zuur et al. 2016
-
-# now for the invidivual species models
