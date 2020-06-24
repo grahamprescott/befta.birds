@@ -146,6 +146,7 @@ AIC(n.model.1)
 # try glmer.nb()
 #  glmer.nb(y~x1+x2+(1/randomvariable),family=quasipoisson,data=data)
 # Bolker TREE paper a while back...
+# do I specify REML or ML?
 
 # Individual species models
 
