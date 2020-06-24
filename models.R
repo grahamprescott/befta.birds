@@ -96,29 +96,62 @@ model.data <- birds %>%
   mutate(stage = fct_relevel(stage, "Before", "After")) %>%
   group_by(round, plot) %>%
   mutate(n = length(common)) %>%
-  mutate(sr = n_distinct(common))
+  mutate(sr = n_distinct(common)) %>%
+  mutate(triplet = str_replace_all(plot, c("C10" = "T1",
+                                           "C11" = "T1",
+                                           "C12" = "T1",
+                                           "C17" = "T2",
+                                           "C18" = "T2",
+                                           "C19" = "T2",
+                                           "D28" = "T3",
+                                           "D29" = "T3",
+                                           "D30" = "T3",
+                                           "F04" = "T4",
+                                           "F05" = "T4",
+                                           "F06" = "T4",
+                                           "G07" = "T5",
+                                           "G08" = "T5",
+                                           "G09" = "T5",
+                                           "G14" = "T6",
+                                           "G15" = "T6",
+                                           "G16" = "T6")))
+view(model.data)
 
-sr.model.0 <- glmer(sr ~ (1|plot), data=model.data, family = poisson)
+sr.model.0 <- glmer(sr ~ (1|triplet/plot), data=model.data, family = poisson)
 summary(sr.model.0)
+qqfunc(sr.model.0)
 plot(sr.model.0)
 AIC(sr.model.0)
 
-sr.model.1 <- glmer(sr ~ stage*treatment + (1|plot), data=model.data, family=poisson)
+sr.model.1 <- glmer(sr ~ stage*treatment + (1|triplet/plot), data=model.data, family=poisson)
 summary(sr.model.1)
+qqfunc(sr.model.1)
 plot(sr.model.1)
 AIC(sr.model.1)
 
-n.model.0 <- glmer(n ~ (1|plot), data=model.data, family = poisson())
+n.model.0 <- glmer(n ~ (1|triplet/plot), data=model.data, family = poisson())
 summary(n.model.0)
+qqfunc(n.model.0)
 plot(n.model.0)
 AIC(n.model.0)
 
-n.model.1 <- glmer(n ~ stage*treatment + (1|plot), data=model.data, family = poisson)
+n.model.1 <- glmer(n ~ stage*treatment + (1|triplet/plot), data=model.data, family = poisson)
 summary(n.model.1)
+qqfunc(n.model.1)
 plot(n.model.1)
 AIC(n.model.1)
 
-# check model diagnositcs and Zuur et al. 2016
+# hmm qqfunc plots all look good, but seems like variance in residuals increases with values - i.e. over-dispersion, if that's the right word? 
+# check model diagnostics and Zuur et al. 2016
+# try glmer.nb()
+#  glmer.nb(y~x1+x2+(1/randomvariable),family=quasipoisson,data=data)
+# Bolker TREE paper a while back...
 
-# now for the invidivual species models
+# Individual species models
 
+# I am tired - check that this is doing the right thing. 
+bwp.model.data <- model.data %>%
+  subset(latin == "Prinia familiaris") %>%
+  mutate(count = length(latin))
+
+view(bwp.model.data)
