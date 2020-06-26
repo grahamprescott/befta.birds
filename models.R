@@ -129,6 +129,12 @@ qqfunc(sr.model.1)
 plot(sr.model.1)
 AIC(sr.model.1)
 
+E2 <- resid(sr.model.1, type = "pearson")
+N2  <- nrow(model.data)
+p2  <- length(fixef(sr.model.1)) + 1
+sum(E2^2) / (N2 - p2)
+
+
 n.model.0 <- glmer(n ~ (1|triplet/plot), data=model.data, family = poisson())
 summary(n.model.0)
 qqfunc(n.model.0)
@@ -140,6 +146,11 @@ summary(n.model.1)
 qqfunc(n.model.1)
 plot(n.model.1)
 AIC(n.model.1)
+
+E1 <- resid(n.model.1, type = "pearson")
+N  <- nrow(model.data)
+p  <- length(fixef(n.model.1)) + 1
+sum(E1^2) / (N - p)
 
 # hmm qqfunc plots all look good, but seems like variance in residuals increases with values - i.e. over-dispersion, if that's the right word? 
 # check model diagnostics and Zuur et al. 2016
