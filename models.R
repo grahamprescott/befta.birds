@@ -25,6 +25,17 @@ birds <- birds.full %>%
                                           "Pycnonotus aurigaster" = "Pycnonotus sp.",
                                           "Parus cinereus" = "Parus minor"))) 
 
+# create new variable
+wide.birds <- birds %>%
+  select(common, plot, round) %>%
+  unite("plot.round", plot:round) %>%
+  group_by(plot.round, common) %>%
+  summarise(count = length(common)) %>%
+  pivot_wider(names_from = common, values_from = count, values_fill = list(count = 0))
+
+head(wide.birds)
+head(wider.birds)
+
 #define functions
 
 qqfunc <- function(model){
@@ -162,8 +173,97 @@ sum(E1^2) / (N - p)
 # Individual species models
 
 # I am tired - check that this is doing the right thing. 
-bwp.model.data <- model.data %>%
-  subset(latin == "Prinia familiaris") %>%
-  mutate(count = length(latin))
+head(wider.birds)
 
-view(bwp.model.data)
+bwp.model.data <- wider.birds %>%
+  rename("bwp" = "Bar-winged Prinia") %>%
+  select(round, plot, treatment, stage, bwp) %>%
+  mutate(triplet = str_replace_all(plot, c("C10" = "T1",
+                                           "C11" = "T1",
+                                           "C12" = "T1",
+                                           "C17" = "T2",
+                                           "C18" = "T2",
+                                           "C19" = "T2",
+                                           "D28" = "T3",
+                                           "D29" = "T3",
+                                           "D30" = "T3",
+                                           "F04" = "T4",
+                                           "F05" = "T4",
+                                           "F06" = "T4",
+                                           "G07" = "T5",
+                                           "G08" = "T5",
+                                           "G09" = "T5",
+                                           "G14" = "T6",
+                                           "G15" = "T6",
+                                           "G16" = "T6")))
+
+#view(bwp.model.data)
+
+att.model.data <- wider.birds %>%
+  rename("att" = "Ashy Tailorbird") %>%
+  select(round, plot, treatment, stage, att) %>%
+  mutate(triplet = str_replace_all(plot, c("C10" = "T1",
+                                           "C11" = "T1",
+                                           "C12" = "T1",
+                                           "C17" = "T2",
+                                           "C18" = "T2",
+                                           "C19" = "T2",
+                                           "D28" = "T3",
+                                           "D29" = "T3",
+                                           "D30" = "T3",
+                                           "F04" = "T4",
+                                           "F05" = "T4",
+                                           "F06" = "T4",
+                                           "G07" = "T5",
+                                           "G08" = "T5",
+                                           "G09" = "T5",
+                                           "G14" = "T6",
+                                           "G15" = "T6",
+                                           "G16" = "T6")))
+
+#view(att.model.data)
+
+rtt.model.data <- wider.birds %>%
+  rename("rtt" = "Rufous-tailed Tailorbird") %>%
+  select(round, plot, treatment, stage, rtt) %>%
+  mutate(triplet = str_replace_all(plot, c("C10" = "T1",
+                                           "C11" = "T1",
+                                           "C12" = "T1",
+                                           "C17" = "T2",
+                                           "C18" = "T2",
+                                           "C19" = "T2",
+                                           "D28" = "T3",
+                                           "D29" = "T3",
+                                           "D30" = "T3",
+                                           "F04" = "T4",
+                                           "F05" = "T4",
+                                           "F06" = "T4",
+                                           "G07" = "T5",
+                                           "G08" = "T5",
+                                           "G09" = "T5",
+                                           "G14" = "T6",
+                                           "G15" = "T6",
+                                           "G16" = "T6")))
+#view(rtt.model.data)
+
+bulbul.model.data <- wider.birds %>%
+  select(round, plot, treatment, stage, Bulbul) %>%
+  mutate(triplet = str_replace_all(plot, c("C10" = "T1",
+                                           "C11" = "T1",
+                                           "C12" = "T1",
+                                           "C17" = "T2",
+                                           "C18" = "T2",
+                                           "C19" = "T2",
+                                           "D28" = "T3",
+                                           "D29" = "T3",
+                                           "D30" = "T3",
+                                           "F04" = "T4",
+                                           "F05" = "T4",
+                                           "F06" = "T4",
+                                           "G07" = "T5",
+                                           "G08" = "T5",
+                                           "G09" = "T5",
+                                           "G14" = "T6",
+                                           "G15" = "T6",
+                                           "G16" = "T6")))
+view(bulbul.model.data)
