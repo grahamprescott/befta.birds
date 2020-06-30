@@ -199,6 +199,25 @@ bwp.model.data <- wider.birds %>%
 
 #view(bwp.model.data)
 
+
+
+bwp.model.0 <- glmer(bwp ~ (1|triplet/plot), data=bwp.model.data, family = poisson())
+summary(bwp.model.0)
+qqfunc(bwp.model.0)
+plot(bwp.model.0)
+AIC(bwp.model.0)
+
+bwp.model.1 <- glmer(bwp ~ stage*treatment + (1|triplet/plot), data=bwp.model.data, family = poisson)
+summary(bwp.model.1)
+qqfunc(bwp.model.1)
+plot(bwp.model.1)
+AIC(bwp.model.1)
+
+E1.bwp <- resid(bwp.model.1, type = "pearson")
+N.bwp  <- nrow(model.data)
+p.bwp  <- length(fixef(bwp.model.1)) + 1
+sum(E1.bwp^2) / (N.bwp - p.bwp)
+
 att.model.data <- wider.birds %>%
   rename("att" = "Ashy Tailorbird") %>%
   select(round, plot, treatment, stage, att) %>%
