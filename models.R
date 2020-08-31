@@ -14,16 +14,14 @@ birds <- birds.full %>%
   subset(common != "Red Junglefowl") %>%
   #remove Eurasian tree sparrow
   subset(common != "Eurasian Tree Sparrow") %>%
-  # merge the bulbuls together into one species; rename Cinereous to Japanese Tit (following recent paper)
-  mutate(common = str_replace_all(common, c("Olive-winged Bulbul" = "Bulbul",
-                                            "Yellow-vented Bulbul" = "Bulbul",
-                                            "Sooty-headed Bulbul" = "Bulbul",
-                                            "Cinereous Tit" = "Japanese Tit"))) %>%
-  # adjust Latin names too
-  mutate(latin = str_replace_all(latin, c("Pycnonotus plumosus" = "Pycnonotus sp.",
-                                          "Pycnonotus goiavier" = "Pycnonotus sp.",
-                                          "Pycnonotus aurigaster" = "Pycnonotus sp.",
-                                          "Parus cinereus" = "Parus minor"))) 
+  # remove Oriental Mapgie Robin
+  subset(common != "Oriental Magpie-Robin")
+# merge the bulbuls together into one species; rename Cinereous to Japanese Tit (following recent paper)
+#mutate(common = str_replace_all(common, c("Olive-winged Bulbul" = "Bulbul","Yellow-vented Bulbul" = "Bulbul", "Sooty-headed Bulbul" = "Bulbul","Cinereous Tit" = "Japanese Tit"))) %>%
+# adjust Latin names too 
+#mutate(latin = str_replace_all(latin, c("Pycnonotus plumosus" = "Pycnonotus sp.","Pycnonotus goiavier" = "Pycnonotus sp.","Pycnonotus aurigaster" = "Pycnonotus sp.","Parus cinereus" = "Parus minor"))) 
+
+
 
 # create new variable
 wide.birds <- birds %>%
