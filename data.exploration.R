@@ -134,11 +134,11 @@ birds %>%
   mutate(n = length(common)) %>%
   mutate(sr = n_distinct(common)) %>%
   ggplot() +
-  geom_boxplot(aes(x = treatment, y = sr, fill = treatment)) +
-  scale_fill_manual(values = c("dark green", "blue", "red")) +
+  geom_boxplot(aes(x = stage, y = sr, fill = stage)) +
+  scale_fill_manual(values = c("white", "dark grey")) +
   theme_bw(12) +
   ylim(0,5) +
-  facet_wrap(~stage)  +
+  facet_wrap(~treatment)  +
   labs( y = "number of species recorded", x = "", title = "")
 # calculate and display overall differences in abundance and species richness by stage and treatment
 birds %>%
@@ -147,11 +147,11 @@ birds %>%
   mutate(n = length(common)) %>%
   mutate(sr = n_distinct(common)) %>%
   ggplot() +
-  geom_boxplot(aes(x = treatment, y = n, fill = treatment)) +
-  scale_fill_manual(values = c("dark green", "blue", "red")) +
+  geom_boxplot(aes(x = stage, y = n, fill = stage)) +
+  scale_fill_manual(values = c("white", "dark grey")) +
   theme_bw(12) +
   ylim(0,8) +
-  facet_wrap(~stage)  +
+  facet_wrap(~treatment)  +
   labs( y = "number of individuals recorded", x = "", title = "")
 
 # together (note, not sure how to integrate Shannon diversity)
