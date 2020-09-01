@@ -140,6 +140,21 @@ birds %>%
   ylim(0,5) +
   facet_wrap(~treatment)  +
   labs( y = "number of species recorded", x = "", title = "")
+
+# same but coloured by treatment
+birds %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_boxplot(aes(x = stage, y = sr, fill = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  theme_bw(12) +
+  ylim(0,5) +
+  facet_wrap(~treatment)  +
+  labs( y = "number of species recorded", x = "", title = "")
+
 # calculate and display overall differences in abundance and species richness by stage and treatment
 birds %>%
   mutate(stage = fct_relevel(stage, "Before", "After")) %>%
@@ -149,6 +164,20 @@ birds %>%
   ggplot() +
   geom_boxplot(aes(x = stage, y = n, fill = stage)) +
   scale_fill_manual(values = c("white", "dark grey")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  facet_wrap(~treatment)  +
+  labs( y = "number of individuals recorded", x = "", title = "")
+
+# same but coloured by treatment
+birds %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_boxplot(aes(x = stage, y = n, fill = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
   theme_bw(12) +
   ylim(0,8) +
   facet_wrap(~treatment)  +
