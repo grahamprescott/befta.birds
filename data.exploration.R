@@ -41,8 +41,10 @@ birds <- birds.full %>%
   subset(common != "Red Junglefowl") %>%
   #remove Eurasian tree sparrow
   subset(common != "Eurasian Tree Sparrow") %>%
-  # remove Oriental Mapgie Robin
-  subset(common != "Oriental Magpie-Robin")
+  # remove Oriental Mapgie Robin (poaching pressure biases results)
+  subset(common != "Oriental Magpie-Robin") %>%
+  # remove Sunda Frogmout (nocturnal birds not adequately sampled)
+  subset(common != "Sunda Frogmouth")
   # merge the bulbuls together into one species; rename Cinereous to Japanese Tit (following recent paper)
   #mutate(common = str_replace_all(common, c("Olive-winged Bulbul" = "Bulbul","Yellow-vented Bulbul" = "Bulbul", "Sooty-headed Bulbul" = "Bulbul","Cinereous Tit" = "Japanese Tit"))) %>%
   # adjust Latin names too 
