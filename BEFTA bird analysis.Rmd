@@ -1,0 +1,26 @@
+---
+title: "BEFTA bird analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(FD)
+library(lme4)
+library(gridExtra)
+```
+
+## R Markdown
+
+Load data
+
+```{r cars}
+birds.full <- read_csv("./BEFTA birds 2013-2019 final 12.06.2020.csv")
+```
+
+Structure
+
+```{r pressure, echo=FALSE}
+str(birds.full)
+```
