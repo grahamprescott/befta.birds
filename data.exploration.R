@@ -24,9 +24,9 @@ birds.full %>%
   subset(uncertain == 0) %>%
   group_by(family, latin, common) %>%
   count(sort=TRUE) %>%
-  head()
+  #head()
   #write.csv("./TableS1.csv")
-  #view()
+  view()
 
 birds.full %>%
   subset(uncertain != 0) %>%
