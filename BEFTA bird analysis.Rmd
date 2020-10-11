@@ -24,3 +24,30 @@ Structure
 ```{r pressure, echo=FALSE}
 str(birds.full)
 ```
+
+Tidy data to make sure common names are internally consistent, and consistent with functional trait dataset. Going to join datasets by common English names. Keeping the correct Latin name for Japanese tit (Parus minor) but giving it the common name 'Great Tit' for convenience in functional analysis. Check this is corrected latr. 
+
+```{r}
+birds.full %>%
+  mutate(common = str_replace_all(common, c("Cinereous Tit" = "Great Tit",
+                                            "Plaintive cuckoo" = "Plaintive Cuckoo",
+                                            "Sunda Pied Fantail" = "Pied Fantail",
+                                            "Black-naped oriole" = "Black-naped Oriole",
+                                            "Pin-striped Tit-Babbler" = "Pin-striped Tit-babbler",
+                                            "Striped Tit Babbler" = "Pin-striped Tit-babbler",
+                                            "Pied fantail" = "Pied Fantail",
+                                            "Barn swallow" = "Barn Swallow",
+                                            "Edible-nest swiftlet" = "Edible-nest Swiftlet",
+                                            "Slender-billed crow" = "slender-billed Crow"))) %>%
+  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
+                                          "Macronus gularis" = "Mixornis gularis"))) %>%
+  
+  subset(uncertain == 0) %>%
+  group_by(family, latin, common) %>%
+  count(sort=TRUE) %>%
+  view()
+```
+
+
+
+END
