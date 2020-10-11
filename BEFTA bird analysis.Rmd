@@ -38,7 +38,9 @@ birds.full %>%
                                             "Pied fantail" = "Pied Fantail",
                                             "Barn swallow" = "Barn Swallow",
                                             "Edible-nest swiftlet" = "Edible-nest Swiftlet",
-                                            "Slender-billed crow" = "slender-billed Crow"))) %>%
+                                            "Slender-billed crow" = "Slender-billed Crow",
+                                            "Oriental Magpie-Robin" = "Oriental Mapgie-robin",
+                                            "White-breasted Kingfisher" = "White-throated Kingfisher"))) %>%
   mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
                                           "Macronus gularis" = "Mixornis gularis"))) %>%
   
@@ -48,6 +50,118 @@ birds.full %>%
   view()
 ```
 
+Adjust dataset
 
+```{r}
+birds.adjusted <- birds.full %>%
+  mutate(common = str_replace_all(common, c("Cinereous Tit" = "Great Tit",
+                                            "Plaintive cuckoo" = "Plaintive Cuckoo",
+                                            "Sunda Pied Fantail" = "Pied Fantail",
+                                            "Black-naped oriole" = "Black-naped Oriole",
+                                            "Pin-striped Tit-Babbler" = "Pin-striped Tit-babbler",
+                                            "Striped Tit Babbler" = "Pin-striped Tit-babbler",
+                                            "Pied fantail" = "Pied Fantail",
+                                            "Barn swallow" = "Barn Swallow",
+                                            "Edible-nest swiftlet" = "Edible-nest Swiftlet",
+                                            "Slender-billed crow" = "Slender-billed Crow",
+                                            "Oriental Magpie-Robin" = "Oriental Mapgie-robin",
+                                            "White-breasted Kingfisher" = "White-throated Kingfisher"))) %>%
+  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
+                                          "Macronus gularis" = "Mixornis gularis")))
+```
+
+
+
+Check uncertain records (tiny fraction)
+
+```{r}
+birds.full %>%
+  subset(uncertain != 0) %>%
+  view()
+```
+
+Create 'birds.core' for the core plot analysis
+
+```{r}
+birds.core <- birds.adjusted %>%
+  # remove flyovers and observations > 70 m [to only include records in core plot]
+  subset(distance < 30) %>%
+  # remove records of uncertain ID [doubtful records, those marked 'Unidentified', Sunda frogmouth etc had value of 1 in 'uncertain' column]
+  subset(uncertain == 0) %>%
+  # remove red junglefowl / domestic chicken
+  subset(common != "Red Junglefowl") %>%
+  #remove Eurasian tree sparrow
+  subset(common != "Eurasian Tree Sparrow") %>%
+  # remove Oriental Mapgie Robin (poaching pressure biases results)
+  subset(common != "Oriental Magpie-robin") %>%
+  # remove Sunda Frogmout (nocturnal birds not adequately sampled)
+  subset(common != "Sunda Frogmouth")
+  # merge the bulbuls together into one species; rename Cinereous to Japanese Tit (following recent paper)
+  #mutate(common = str_replace_all(common, c("Olive-winged Bulbul" = "Bulbul","Yellow-vented Bulbul" = "Bulbul", "Sooty-headed Bulbul" = "Bulbul","Cinereous Tit" = "Japanese Tit"))) %>%
+  # adjust Latin names too 
+  #mutate(latin = str_replace_all(latin, c("Pycnonotus plumosus" = "Pycnonotus sp.","Pycnonotus goiavier" = "Pycnonotus sp.","Pycnonotus aurigaster" = "Pycnonotus sp.","Parus cinereus" = "Parus minor"))) 
+```
+
+
+Create the same but with bulbuls lumped
+
+```{r}
+birds.core <- birds.adjusted %>%
+  # remove flyovers and observations > 70 m [to only include records in core plot]
+  subset(distance < 30) %>%
+  # remove records of uncertain ID [doubtful records, those marked 'Unidentified', Sunda frogmouth etc had value of 1 in 'uncertain' column]
+  subset(uncertain == 0) %>%
+  # remove red junglefowl / domestic chicken
+  subset(common != "Red Junglefowl") %>%
+  #remove Eurasian tree sparrow
+  subset(common != "Eurasian Tree Sparrow") %>%
+  # remove Oriental Mapgie Robin (poaching pressure biases results)
+  subset(common != "Oriental Magpie-robin") %>%
+  # remove Sunda Frogmout (nocturnal birds not adequately sampled)
+  subset(common != "Sunda Frogmouth") %>%
+  # merge the bulbuls together into one species; rename Cinereous to Japanese Tit (following recent paper)
+  mutate(common = str_replace_all(common, c("Olive-winged Bulbul" = "Bulbul","Yellow-vented Bulbul" = "Bulbul", "Sooty-headed Bulbul" = "Bulbul","Cinereous Tit" = "Japanese Tit"))) %>%
+  # adjust Latin names too 
+  mutate(latin = str_replace_all(latin, c("Pycnonotus plumosus" = "Pycnonotus sp.","Pycnonotus goiavier" = "Pycnonotus sp.","Pycnonotus aurigaster" = "Pycnonotus sp.","Parus cinereus" = "Parus minor"))) 
+  
+```
+
+A conservative core estimate (bulbuls kept separate)
+
+```{r}
+birds.core.conservative <- birds.adjusted %>%
+  # remove flyovers and observations > 70 m [to only include records in core plot]
+  subset(distance < 20) %>%
+  # remove records of uncertain ID [doubtful records, those marked 'Unidentified', Sunda frogmouth etc had value of 1 in 'uncertain' column]
+  subset(uncertain == 0) %>%
+  # remove red junglefowl / domestic chicken
+  subset(common != "Red Junglefowl") %>%
+  #remove Eurasian tree sparrow
+  subset(common != "Eurasian Tree Sparrow") %>%
+  # remove Oriental Mapgie Robin (poaching pressure biases results)
+  subset(common != "Oriental Magpie-robin") %>%
+  # remove Sunda Frogmout (nocturnal birds not adequately sampled)
+  subset(common != "Sunda Frogmouth")
+ 
+```
+
+A anti-conservative sample, with all birds recorded in plot including the non-core area
+
+```{r}
+birds.all.plot <- birds.adjusted %>%
+  # remove flyovers and observations > 70 m [to only include records in core plot]
+  subset(distance < 75) %>%
+  # remove records of uncertain ID [doubtful records, those marked 'Unidentified', Sunda frogmouth etc had value of 1 in 'uncertain' column]
+  subset(uncertain == 0) %>%
+  # remove red junglefowl / domestic chicken
+  subset(common != "Red Junglefowl") %>%
+  #remove Eurasian tree sparrow
+  subset(common != "Eurasian Tree Sparrow") %>%
+  # remove Oriental Mapgie Robin (poaching pressure biases results)
+  subset(common != "Oriental Magpie-robin") %>%
+  # remove Sunda Frogmout (nocturnal birds not adequately sampled)
+  subset(common != "Sunda Frogmouth")
+ 
+```
 
 END

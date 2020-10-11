@@ -33,7 +33,7 @@ birds.full %>%
   view()
 # filter dataset
 birds <- birds.full %>%
-  # remove flyovers and observations > 70 m [to only include records in plot]
+  # remove flyovers and observations > 70 m [to only include records in core plot]
   subset(distance < 30) %>%
   # remove records of uncertain ID [doubtful records, those marked 'Unidentified', Sunda frogmouth etc had value of 1 in 'uncertain' column]
   subset(uncertain == 0) %>%
