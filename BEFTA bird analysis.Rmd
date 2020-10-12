@@ -266,7 +266,26 @@ birds.all.plot %>%
   labs( y = "number of individuals recorded", x = "", title = "")
 ```
 
+Load vegetation data
 
+```{r}
+veg.all <- read_csv("BEFTA_InsectTrapVeg-RReady.csv")
+```
+
+```{r}
+head(veg.all)
+```
+subset
+
+```{r}
+veg <- veg.all %>%
+  filter(TimeBlock == "2013-03" | TimeBlock == "2017-05") %>%
+  select(PrePost, TimeBlock, TrapBearing, BEFTAcode, PlotNumber, Treatment, VegHeight, BareGround,
+         Fern, Frond, OtherPlants, Densio1, Densio2, Densio3, Densio4, MeanPercentOpen)
+
+head(veg)
+```
+Need to ask Sarah about the variables, e.g. what is TrapBearing https://www.frontiersin.org/articles/10.3389/ffgc.2019.00033/full
 
 
 END
