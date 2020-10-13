@@ -287,5 +287,13 @@ head(veg)
 ```
 Need to ask Sarah about the variables, e.g. what is TrapBearing https://www.frontiersin.org/articles/10.3389/ffgc.2019.00033/full
 
+```{r}
+veg %>%
+  unite("StagePlot", c(PrePost, PlotNumber), sep = "_") %>%
+  group_by(StagePlot) %>%
+  summarise_at(vars(-TrapBearing), funs(mean(., na.rm=TRUE))) %>%
+  str()
+```
+
 
 END
