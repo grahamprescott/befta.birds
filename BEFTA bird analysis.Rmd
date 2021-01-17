@@ -287,6 +287,8 @@ head(veg)
 ```
 Need to ask Sarah about the variables, e.g. what is TrapBearing https://www.frontiersin.org/articles/10.3389/ffgc.2019.00033/full
 
+Below is the kind of code I can use to prep preictor variables (i.e. averaging across readings). But need to check I know what I actually want!! 
+
 ```{r}
 veg %>%
   unite("StagePlot", c(PrePost, PlotNumber), sep = "_") %>%
@@ -294,9 +296,16 @@ veg %>%
   summarise(mean.VegHeight = mean(VegHeight), 
             mean.Fern = mean(Fern),
             mean.BareGround = mean(BareGround),
-            mean.Frond = mean(Frond),
-            ) %>%
-              view()
+            mean.Frond = mean(Frond)) %>%
+            head()
 
 ```
+
+FUNCTIONAL DIVERSITY METRICS
+
+
+
+
+
+
 END
