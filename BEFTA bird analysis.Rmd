@@ -9,7 +9,6 @@ library(tidyverse)
 library(FD)
 library(lme4)
 library(gridExtra)
-#test commit
 ```
 
 ## R Markdown
@@ -292,9 +291,12 @@ Need to ask Sarah about the variables, e.g. what is TrapBearing https://www.fron
 veg %>%
   unite("StagePlot", c(PrePost, PlotNumber), sep = "_") %>%
   group_by(StagePlot) %>%
-  summarise_at(vars(-TrapBearing), funs(mean(., na.rm=TRUE))) %>%
-  str()
+  summarise(mean.VegHeight = mean(VegHeight), 
+            mean.Fern = mean(Fern),
+            mean.BareGround = mean(BareGround),
+            mean.Frond = mean(Frond),
+            ) %>%
+              view()
+
 ```
-
-
 END
