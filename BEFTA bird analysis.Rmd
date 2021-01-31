@@ -328,4 +328,9 @@ view(functional.traits)
 
 Mostly the same, except: Parus major vs. Parus minor; Stigmatopelia chinensis vs. Spilopelia chinensis Next steps - align the two datasets. 
 
+```{r}
+#placeholder
+```
+
+
 END
