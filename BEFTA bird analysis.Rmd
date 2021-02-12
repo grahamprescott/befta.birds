@@ -297,7 +297,10 @@ veg %>%
             mean.Fern = mean(Fern),
             mean.BareGround = mean(BareGround),
             mean.Frond = mean(Frond)) %>%
-            head()
+  separate(StagePlot, into = c("Stage", "Plot"), sep = "_") %>%
+  mutate(Stage = str_replace_all(Stage, c("1-Pre" = "Before",
+                                          "2-Post" = "After"))) %>%
+            view()
 
 ```
 
