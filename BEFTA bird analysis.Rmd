@@ -43,7 +43,8 @@ birds.full %>%
                                             "Oriental Magpie-Robin" = "Oriental Mapgie-robin",
                                             "White-breasted Kingfisher" = "White-throated Kingfisher"))) %>%
   mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
-                                          "Macronus gularis" = "Mixornis gularis"))) %>%
+                                          "Macronus gularis" = "Mixornis gularis",
+                                          "Spilopelia chinensis" = "Stigmatopelia chinensis"))) %>%
   
   subset(uncertain == 0) %>%
   group_by(family, latin, common) %>%
@@ -68,7 +69,8 @@ birds.adjusted <- birds.full %>%
                                             "Oriental Magpie-Robin" = "Oriental Mapgie-robin",
                                             "White-breasted Kingfisher" = "White-throated Kingfisher"))) %>%
   mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
-                                          "Macronus gularis" = "Mixornis gularis")))
+                                          "Macronus gularis" = "Mixornis gularis",
+                                          "Spilopelia chinensis" = "Stigmatopelia chinensis")))
 ```
 
 
@@ -515,10 +517,9 @@ unique(functional.traits$Scientific)
 view(functional.traits)
 ```
 
-Mostly the same, except: Parus major vs. Parus minor; Stigmatopelia chinensis vs. Spilopelia chinensis Next steps - align the two datasets. 
 
 ```{r}
-#placeholder
+
 ```
 
 
