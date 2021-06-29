@@ -178,6 +178,8 @@ birds.core %>%
   ylim(0,5) +
   facet_wrap(~treatment)  +
   labs( y = "number of species recorded", x = "", title = "")
+
+ggsave(filename = paste0("species.richness.effect",format(Sys.time(), "%d-%b-%Y %H.%M"), ".pdf"), width = 120, height = 163, dpi = "print", units = "mm", device='pdf')
 ```
 What if we lump bulbuls
 
