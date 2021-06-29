@@ -1,0 +1,282 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+R markdown file for exploring the vegetation variables
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(FD)
+library(lme4)
+library(gridExtra)
+```
+
+These will be used as the predictor variables in models, to see if they improve predictions above treatment. This will also enable us to visualise the effects of treatment. 
+
+Load bird data for comparison later:
+
+```{r cars}
+birds.full <- read_csv("./BEFTA birds 2013-2019 final 12.06.2020.csv")
+```
+
+```{r}
+birds.adjusted <- birds.full %>%
+  mutate(common = str_replace_all(common, c("Cinereous Tit" = "Great Tit",
+                                            "Plaintive cuckoo" = "Plaintive Cuckoo",
+                                            "Sunda Pied Fantail" = "Pied Fantail",
+                                            "Black-naped oriole" = "Black-naped Oriole",
+                                            "Pin-striped Tit-Babbler" = "Pin-striped Tit-babbler",
+                                            "Striped Tit Babbler" = "Pin-striped Tit-babbler",
+                                            "Pied fantail" = "Pied Fantail",
+                                            "Barn swallow" = "Barn Swallow",
+                                            "Edible-nest swiftlet" = "Edible-nest Swiftlet",
+                                            "Slender-billed crow" = "Slender-billed Crow",
+                                            "Oriental Magpie-Robin" = "Oriental Mapgie-robin",
+                                            "White-breasted Kingfisher" = "White-throated Kingfisher"))) %>%
+  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
+                                          "Macronus gularis" = "Mixornis gularis",
+                                          "Spilopelia chinensis" = "Stigmatopelia chinensis")))
+```
+
+```{r}
+birds.core <- birds.adjusted %>%
+  # remove flyovers and observations > 70 m [to only include records in core plot]
+  subset(distance < 30) %>%
+  # remove records of uncertain ID [doubtful records, those marked 'Unidentified', Sunda frogmouth etc had value of 1 in 'uncertain' column]
+  subset(uncertain == 0) %>%
+  # remove red junglefowl / domestic chicken
+  subset(common != "Red Junglefowl") %>%
+  #remove Eurasian tree sparrow
+  subset(common != "Eurasian Tree Sparrow") %>%
+  # remove Oriental Mapgie Robin (poaching pressure biases results)
+  subset(common != "Oriental Magpie-robin") %>%
+  # remove Sunda Frogmout (nocturnal birds not adequately sampled)
+  subset(common != "Sunda Frogmouth")
+```
+
+
+Load vegetation data
+
+```{r}
+veg.all <- read_csv("BEFTA_InsectTrapVeg-RReady.csv")
+```
+
+```{r}
+head(veg.all)
+```
+subset
+
+```{r}
+veg <- veg.all %>%
+  filter(TimeBlock == "2013-03" | TimeBlock == "2017-05") %>%
+  select(PrePost, TimeBlock, TrapBearing, BEFTAcode, PlotNumber, Treatment, VegHeight, BareGround,
+         Fern, Frond, OtherPlants, Densio1, Densio2, Densio3, Densio4, MeanPercentOpen)
+
+head(veg)
+```
+Need to ask Sarah about the variables, e.g. what is TrapBearing https://www.frontiersin.org/articles/10.3389/ffgc.2019.00033/full
+
+Below is the kind of code I can use to prep predictor variables (i.e. averaging across readings). But need to check I know what I actually want!! 
+```{r}
+ veg %>%
+  unite("StagePlot", c(PrePost, PlotNumber), sep = "_") %>%
+  group_by(StagePlot) %>%
+  summarise(mean.VegHeight = mean(VegHeight), 
+            mean.Fern = mean(Fern),
+            mean.BareGround = mean(BareGround),
+            mean.Frond = mean(Frond)) %>%
+  ggplot() +
+  geom_point(aes(x = StagePlot, y = mean.VegHeight))
+
+```
+
+
+
+```{r}
+veg.vars <- veg %>%
+  unite("StagePlot", c(PrePost, PlotNumber), sep = "_") %>%
+  group_by(StagePlot) %>%
+  summarise(mean.VegHeight = mean(VegHeight), 
+            mean.Fern = mean(Fern),
+            mean.BareGround = mean(BareGround),
+            mean.Frond = mean(Frond)) %>%
+  separate(StagePlot, into = c("Stage", "Plot"), sep = "_") %>%
+  mutate(Stage = str_replace_all(Stage, c("1-Pre" = "Before",
+                                          "2-Post" = "After"))) %>%
+  rename(stage = Stage) %>%
+  rename(plot = Plot)
+
+```
+
+
+Combine veg.vars with birds.core
+
+```{r}
+combo.data <- full_join(veg.vars, birds.core)
+view(combo.data)
+```
+
+Preliminary graphing
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  ggplot() +
+  geom_boxplot(aes(x = treatment, y = mean.VegHeight, fill = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  facet_wrap(~stage) +
+  theme_bw(12)
+```
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  ggplot() +
+  geom_boxplot(aes(x = treatment, y = mean.Frond, fill = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  facet_wrap(~stage) +
+  theme_bw(12)
+```
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  ggplot() +
+  geom_boxplot(aes(x = treatment, y = mean.Fern, fill = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  facet_wrap(~stage) +
+  theme_bw(12)
+```
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  ggplot() +
+  geom_boxplot(aes(x = treatment, y = mean.BareGround, fill = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  facet_wrap(~stage) +
+  theme_bw(12)
+```
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_point(aes(x = mean.VegHeight, y = n, color = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  #facet_wrap(~stage) +
+  labs( y = "number of individuals recorded", x = "mean vegetation height", title = "")
+```
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_point(aes(x = mean.VegHeight, y = sr, color = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  #facet_wrap(~stage) +
+  labs( y = "number of species recorded", x = "mean vegetation height", title = "")
+```
+
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_point(aes(x = mean.Frond, y = n, color = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  #facet_wrap(~stage) +
+  labs( y = "number of individuals recorded", x = "mean frond", title = "")
+```
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_point(aes(x = mean.Frond, y = sr, color = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  #facet_wrap(~stage) +
+  labs( y = "number of species recorded", x = "mean frond", title = "")
+```
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_point(aes(x = mean.Fern, y = n, color = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  #facet_wrap(~stage) +
+  labs( y = "number of individuals recorded", x = "mean fern", title = "")
+```
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_point(aes(x = mean.Fern, y = sr, color = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  #facet_wrap(~stage) +
+  labs( y = "number of species recorded", x = "mean fern", title = "")
+```
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_point(aes(x = mean.BareGround, y = n, color = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  #facet_wrap(~stage) +
+  labs( y = "number of individuals recorded", x = "mean bare ground", title = "")
+```
+
+```{r}
+combo.data %>%
+  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
+  group_by(round, plot) %>%
+  mutate(n = length(common)) %>%
+  mutate(sr = n_distinct(common)) %>%
+  ggplot() +
+  geom_point(aes(x = mean.BareGround, y = sr, color = treatment)) +
+  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
+  theme_bw(12) +
+  ylim(0,8) +
+  #facet_wrap(~stage) +
+  labs( y = "number of species recorded", x = "mean bare ground", title = "")
+```
+
