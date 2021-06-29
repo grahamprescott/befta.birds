@@ -35,7 +35,7 @@ birds.adjusted <- birds.full %>%
                                             "Slender-billed crow" = "Slender-billed Crow",
                                             "Oriental Magpie-Robin" = "Oriental Mapgie-robin",
                                             "White-breasted Kingfisher" = "White-throated Kingfisher"))) %>%
-  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
+  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus major",
                                           "Macronus gularis" = "Mixornis gularis",
                                           "Spilopelia chinensis" = "Stigmatopelia chinensis")))
 ```

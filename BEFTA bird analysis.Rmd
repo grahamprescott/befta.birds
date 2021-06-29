@@ -13,23 +13,13 @@ library(gridExtra)
 
 ## R Markdown
 
-Load data.
+Load data. 
+Tidy data to make sure common names are internally consistent, and consistent with functional trait dataset. Going to join datasets by common English names. Note, Japanese tit as 'Great Tit' / 'Parus major' for convenience in functional analysis.  
+
 Note: all data and code available at https://github.com/grahamprescott/befta.birds
 
 ```{r cars}
-birds.full <- read_csv("./BEFTA birds 2013-2019 final 12.06.2020.csv")
-```
-
-Structure
-
-```{r pressure, echo=FALSE}
-str(birds.full)
-```
-
-Tidy data to make sure common names are internally consistent, and consistent with functional trait dataset. Going to join datasets by common English names. Keeping the correct Latin name for Japanese tit (Parus minor) but giving it the common name 'Great Tit' for convenience in functional analysis. Check this is corrected latr. 
-
-```{r}
-birds.full %>%
+birds.adjusted <- read_csv("./BEFTA birds 2013-2019 final 12.06.2020.csv") %>%
   mutate(common = str_replace_all(common, c("Cinereous Tit" = "Great Tit",
                                             "Plaintive cuckoo" = "Plaintive Cuckoo",
                                             "Sunda Pied Fantail" = "Pied Fantail",
@@ -42,46 +32,12 @@ birds.full %>%
                                             "Slender-billed crow" = "Slender-billed Crow",
                                             "Oriental Magpie-Robin" = "Oriental Mapgie-robin",
                                             "White-breasted Kingfisher" = "White-throated Kingfisher"))) %>%
-  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
-                                          "Macronus gularis" = "Mixornis gularis",
-                                          "Spilopelia chinensis" = "Stigmatopelia chinensis"))) %>%
-  
-  subset(uncertain == 0) %>%
-  group_by(family, latin, common) %>%
-  count(sort=TRUE) %>%
-  view()
-```
-
-Adjust dataset
-
-```{r}
-birds.adjusted <- birds.full %>%
-  mutate(common = str_replace_all(common, c("Cinereous Tit" = "Great Tit",
-                                            "Plaintive cuckoo" = "Plaintive Cuckoo",
-                                            "Sunda Pied Fantail" = "Pied Fantail",
-                                            "Black-naped oriole" = "Black-naped Oriole",
-                                            "Pin-striped Tit-Babbler" = "Pin-striped Tit-babbler",
-                                            "Striped Tit Babbler" = "Pin-striped Tit-babbler",
-                                            "Pied fantail" = "Pied Fantail",
-                                            "Barn swallow" = "Barn Swallow",
-                                            "Edible-nest swiftlet" = "Edible-nest Swiftlet",
-                                            "Slender-billed crow" = "Slender-billed Crow",
-                                            "Oriental Magpie-Robin" = "Oriental Mapgie-robin",
-                                            "White-breasted Kingfisher" = "White-throated Kingfisher"))) %>%
-  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
+  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus major",
                                           "Macronus gularis" = "Mixornis gularis",
                                           "Spilopelia chinensis" = "Stigmatopelia chinensis")))
 ```
 
-Check uncertain records (tiny fraction)
-
-```{r}
-birds.full %>%
-  subset(uncertain != 0) %>%
-  view()
-```
-
-Create 'birds.core' for the core plot analysis
+Create 'birds.core' for the core plot analysis. Specifically, remove flyovers, only include observations <30 m from observer (to be sure that they are in the plot), and remove some problem species: red jungle fowl (confusion with domestic chickens), Eurasian tree sparrow (associated with settlements not core oil palm), oriental magpie robin (not enough records, trapping concern), Sunda frogmouth (nocturnal)
 
 ```{r}
 birds.core <- birds.adjusted %>%

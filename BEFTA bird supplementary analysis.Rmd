@@ -20,7 +20,7 @@ Note: all data and code available at https://github.com/grahamprescott/befta.bir
 birds.full <- read_csv("./BEFTA birds 2013-2019 final 12.06.2020.csv")
 ```
 
-Tidy data to make sure common names and Latin names are internally consistent, and consistent with functional trait dataset. Going to join datasets by common English names. Keeping the correct Latin name for Japanese tit (Parus minor) but giving it the common name 'Great Tit' for convenience in functional analysis. Check this
+Tidy data to make sure common names are internally consistent, and consistent with functional trait dataset. Going to join datasets by common English names. Note, Japanese tit as 'Great Tit' / 'Parus major' for convenience in functional analysis.  
 
 ```{r}
 birds.full %>%
@@ -36,7 +36,7 @@ birds.full %>%
                                             "Slender-billed crow" = "Slender-billed Crow",
                                             "Oriental Magpie-Robin" = "Oriental Mapgie-robin",
                                             "White-breasted Kingfisher" = "White-throated Kingfisher"))) %>%
-  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus minor",
+  mutate(latin = str_replace_all(latin, c("Parus cinereus" = "Parus major",
                                           "Macronus gularis" = "Mixornis gularis",
                                           "Spilopelia chinensis" = "Stigmatopelia chinensis"))) %>%
   
@@ -46,6 +46,14 @@ birds.full %>%
   view()
 ```
 
+
+Check uncertain records (tiny fraction)
+
+```{r}
+birds.full %>%
+  subset(uncertain != 0) %>%
+  view()
+```
 Adjust dataset
 
 ```{r}
