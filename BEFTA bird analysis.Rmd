@@ -116,12 +116,17 @@ vs
 
 ```{r}
 unique(functional.traits$Scientific)
-view(functional.traits)
 ```
 
+Check complete. Now onto the functional diversity analysis! 
+
+Note: need to mutate functional.traits before I join - e.g. Scientific -> latin; English -> common
+
+Next step is to merge the datasets. 
 
 ```{r}
-
+functional.diversity.analysis <-  full_join(functional.traits, birds.core)
+view(combo.data)
 ```
 
 
