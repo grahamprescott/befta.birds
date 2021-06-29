@@ -73,8 +73,6 @@ birds.adjusted <- birds.full %>%
                                           "Spilopelia chinensis" = "Stigmatopelia chinensis")))
 ```
 
-
-
 Check uncertain records (tiny fraction)
 
 ```{r}
@@ -101,68 +99,6 @@ birds.core <- birds.adjusted %>%
   subset(common != "Sunda Frogmouth")
 ```
 
-
-Create the same but with bulbuls lumped
-
-```{r}
-birds.core.bulbul.lump <- birds.adjusted %>%
-  # remove flyovers and observations > 70 m [to only include records in core plot]
-  subset(distance < 30) %>%
-  # remove records of uncertain ID [doubtful records, those marked 'Unidentified', Sunda frogmouth etc had value of 1 in 'uncertain' column]
-  subset(uncertain == 0) %>%
-  # remove red junglefowl / domestic chicken
-  subset(common != "Red Junglefowl") %>%
-  #remove Eurasian tree sparrow
-  subset(common != "Eurasian Tree Sparrow") %>%
-  # remove Oriental Mapgie Robin (poaching pressure biases results)
-  subset(common != "Oriental Magpie-robin") %>%
-  # remove Sunda Frogmout (nocturnal birds not adequately sampled)
-  subset(common != "Sunda Frogmouth") %>%
-  # merge the bulbuls together into one species; rename Cinereous to Japanese Tit (following recent paper)
-  mutate(common = str_replace_all(common, c("Olive-winged Bulbul" = "Bulbul","Yellow-vented Bulbul" = "Bulbul", "Sooty-headed Bulbul" = "Bulbul","Cinereous Tit" = "Japanese Tit"))) %>%
-  # adjust Latin names too 
-  mutate(latin = str_replace_all(latin, c("Pycnonotus plumosus" = "Pycnonotus sp.","Pycnonotus goiavier" = "Pycnonotus sp.","Pycnonotus aurigaster" = "Pycnonotus sp.","Parus cinereus" = "Parus minor"))) 
-  
-```
-
-A conservative core estimate (bulbuls kept separate)
-
-```{r}
-birds.core.conservative <- birds.adjusted %>%
-  # remove flyovers and observations > 70 m [to only include records in core plot]
-  subset(distance < 20) %>%
-  # remove records of uncertain ID [doubtful records, those marked 'Unidentified', Sunda frogmouth etc had value of 1 in 'uncertain' column]
-  subset(uncertain == 0) %>%
-  # remove red junglefowl / domestic chicken
-  subset(common != "Red Junglefowl") %>%
-  #remove Eurasian tree sparrow
-  subset(common != "Eurasian Tree Sparrow") %>%
-  # remove Oriental Mapgie Robin (poaching pressure biases results)
-  subset(common != "Oriental Magpie-robin") %>%
-  # remove Sunda Frogmout (nocturnal birds not adequately sampled)
-  subset(common != "Sunda Frogmouth")
- 
-```
-
-A anti-conservative sample, with all birds recorded in plot including the non-core area
-
-```{r}
-birds.all.plot <- birds.adjusted %>%
-  # remove flyovers and observations > 70 m [to only include records in core plot]
-  subset(distance < 75) %>%
-  # remove records of uncertain ID [doubtful records, those marked 'Unidentified', Sunda frogmouth etc had value of 1 in 'uncertain' column]
-  subset(uncertain == 0) %>%
-  # remove red junglefowl / domestic chicken
-  subset(common != "Red Junglefowl") %>%
-  #remove Eurasian tree sparrow
-  subset(common != "Eurasian Tree Sparrow") %>%
-  # remove Oriental Mapgie Robin (poaching pressure biases results)
-  subset(common != "Oriental Magpie-robin") %>%
-  # remove Sunda Frogmout (nocturnal birds not adequately sampled)
-  subset(common != "Sunda Frogmouth")
- 
-```
-
 Visualise change in species richness (core dataset)
 
 ```{r}
@@ -179,61 +115,8 @@ birds.core %>%
   facet_wrap(~treatment)  +
   labs( y = "number of species recorded", x = "", title = "")
 
-ggsave(filename = paste0("species.richness.effect",format(Sys.time(), "%d-%b-%Y %H.%M"), ".pdf"), width = 120, height = 163, dpi = "print", units = "mm", device='pdf')
+ggsave(filename = paste0("species.richness.effect",format(Sys.time(), "%d-%b-%Y %H.%M"), ".pdf"), width = 140, height = 160, dpi = "print", units = "mm", device='pdf')
 ```
-What if we lump bulbuls
-
-```{r}
-birds.core.bulbul.lump %>%
-  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
-  group_by(round, plot) %>%
-  mutate(n = length(common)) %>%
-  mutate(sr = n_distinct(common)) %>%
-  ggplot() +
-  geom_boxplot(aes(x = stage, y = sr, fill = treatment)) +
-  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
-  theme_bw(12) +
-  ylim(0,5) +
-  facet_wrap(~treatment)  +
-  labs( y = "number of species recorded", x = "", title = "")
-```
-No impact of splitting bulbuls - i.e. bulbuls were not erroneously split within the same point count. Overall I think it makes sense to keep them split as 3 species for subsequent analyses. I think the only possible issue is that olive-winged bulbul might be undersampled, which would affect some of the community composition analyses. 
-
-If we restrict to < 20 m from observer:
-
-```{r}
-birds.core.conservative %>%
-  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
-  group_by(round, plot) %>%
-  mutate(n = length(common)) %>%
-  mutate(sr = n_distinct(common)) %>%
-  ggplot() +
-  geom_boxplot(aes(x = stage, y = sr, fill = treatment)) +
-  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
-  theme_bw(12) +
-  ylim(0,5) +
-  facet_wrap(~treatment)  +
-  labs( y = "number of species recorded", x = "", title = "")
-```
-OK that would be too restrictive. I think the core area is fine, and makes sense to restrict analysis to this. 
-
-For visualisation how about if we include all species in the plot, not just core area?
-
-```{r}
-birds.all.plot %>%
-  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
-  group_by(round, plot) %>%
-  mutate(n = length(common)) %>%
-  mutate(sr = n_distinct(common)) %>%
-  ggplot() +
-  geom_boxplot(aes(x = stage, y = sr, fill = treatment)) +
-  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
-  theme_bw(12) +
-  ylim(0,5) +
-  facet_wrap(~treatment)  +
-  labs( y = "number of species recorded", x = "", title = "")
-```
-Interesting pattern for the normal plots! Sensitivity analysis will probably indicate that the pattern we observe only holds for the core area - plausible as birds are very mobile - but let's see. 
 
 Abundance patterns for core area?
 
@@ -250,24 +133,8 @@ birds.core %>%
   ylim(0,8) +
   facet_wrap(~treatment)  +
   labs( y = "number of individuals recorded", x = "", title = "")
-```
 
-
-Abundnace patterns for whole plot?
-
-```{r}
-birds.all.plot %>%
-  mutate(stage = fct_relevel(stage, "Before", "After")) %>%
-  group_by(round, plot) %>%
-  mutate(n = length(common)) %>%
-  mutate(sr = n_distinct(common)) %>%
-  ggplot() +
-  geom_boxplot(aes(x = stage, y = n, fill = treatment)) +
-  scale_fill_manual(values = c("#1b9e77", "#7570b3", "#d95f02")) +
-  theme_bw(12) +
-  ylim(0,8) +
-  facet_wrap(~treatment)  +
-  labs( y = "number of individuals recorded", x = "", title = "")
+ggsave(filename = paste0("abundance.effect",format(Sys.time(), "%d-%b-%Y %H.%M"), ".pdf"), width = 140, height = 160, dpi = "print", units = "mm", device='pdf')
 ```
 
 Load vegetation data
