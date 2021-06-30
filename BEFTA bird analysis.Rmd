@@ -122,11 +122,23 @@ Check complete. Now onto the functional diversity analysis!
 
 Note: need to mutate functional.traits before I join - e.g. Scientific -> latin; English -> common
 
+```{r}
+functional.traits <- functional.traits %>%
+  rename(latin = Scientific) %>%
+  rename(common = English)
+```
+
+
 Next step is to merge the datasets. 
 
 ```{r}
 functional.diversity.analysis <-  full_join(functional.traits, birds.core)
-view(combo.data)
+```
+
+check
+
+```{r}
+head(functional.diversity.analysis)
 ```
 
 
